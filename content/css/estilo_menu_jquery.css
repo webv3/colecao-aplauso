@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{padding:0;margin:0;}
+
+
+.menu{margin-bottom:10px;}
+.menu li{
+	list-style:none;
+	padding-left:4px;
+	letter-spacing:-2px;
+    margin-bottom:1px;
+    width:135px;
+    background-color:#FFFFFF;
+}
+
+.sub_livros li{
+	color:red;
+    letter-spacing:-0;
+}
+
+
+
+
+/* seta menu livros*/
+
+
+.menu #primeiro-livros{
+/*background-image:url(/web/20101010093147im_/http://aplauso.imprensaoficial.com.br/common/images/ico-seta.png);
+background-position:93px 50%;
+background-repeat:no-repeat;*/
+padding-right:30px;
+font-size:19pt !important;
+font-weight:bold !important;
+
+}
+
+
+/*fim seta menu livros*/
+
+/*
+.menu #livros a:active {
+background-image:url(/web/20101010093147im_/http://aplauso.imprensaoficial.com.br/common/images/ico-seta-verde-down.png);
+background-position:93px 50%;
+background-repeat:no-repeat;
+padding-right:30px;
+}*/
+
+.ativo{
+/*background-image:url(/web/20101010093147im_/http://aplauso.imprensaoficial.com.br/common/images/ico-seta-verde-down.png) !important;*/
+}
+
+.sub_livros{
+    display:none;
+}
+
+
+/*
+.menu #livros .selected:active  {
+background-image:url(/web/20101010093147im_/http://aplauso.imprensaoficial.com.br/common/images/ico-seta-verde-down.png);
+background-position:93px 50%;
+background-repeat:no-repeat;
+padding-right:22px;
+}
+*/
+
+
+/*Cor dos links do menu*/
+.menu li a{
+	color:#858585;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15pt;
+	text-decoration:none;
+}
+/*
+ul li a:visited{
+	color:#858585;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:19pt;
+	text-decoration:none;
+}*/
+
+
+
+
+
+/*Sub Itens Livros ###################### */
+ul li .sub_livros li{
+	border-bottom:solid 1px #999;
+	padding-left:0;
+}
+ul li .sub_livros li a{
+	color:#999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	text-decoration:none;
+}
+ul li .sub_livros li a:visited{
+	color:#999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	text-decoration:none;
+}
+ul li .sub_livros .espaco{
+	border-bottom:none;
+}
+
+
+
+
+
+
+/*overs color do Menu ########################*/
+ul #primeiro-livros:hover{
+	color:#090;
+	/*background-image:url(/web/20101010093147im_/http://aplauso.imprensaoficial.com.br/common/images/ico-seta-verde.png);
+	background-position:93px 50%;
+	background-repeat:no-repeat;*/
+	padding-right:30px;
+}
+
+ul #livros a:hover{
+	color:#090;
+}
+ul #videos a:hover{
+	color:#f26522;
+}
+ul #midia a:hover{
+	color:#20409a;
+}
+ul #contato a:hover{
+	color:#a90e13;
+}
+ul #eventos a:hover{
+	color:#7f3f98;
+}
+ul #contato a:hover{
+	color:#a90e13;
+}
+
+
+
+/*SELECTED MENU / itens selecionados ########################*/
+.menu #livros .selected{
+	color:#090;
+	/*background-image:url(/web/20101010093147im_/http://aplauso.imprensaoficial.com.br/common/images/ico-seta-verde.png);
+	background-position:93px 50%;
+	background-repeat:no-repeat;*/
+	padding-right:30px;
+}
+#videos .selected{
+	color:#f26522;
+}
+#midia .selected{
+	color:#20409a;
+}
+#contato .selected{
+	color:#009;
+}
+#eventos .selected{
+	color:#7f3f98;
+}
+#contato .selected{
+	color:#a90e13;
+}
+
+
+
+/*
+     FILE ARCHIVED ON 09:31:47 Oct 10, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:01:44 Nov 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 448.261 (3)
+  esindex: 0.014
+  captures_list: 470.876
+  CDXLines.iter: 15.669 (3)
+  PetaboxLoader3.datanode: 313.035 (4)
+  exclusion.robots: 0.243
+  exclusion.robots.policy: 0.226
+  RedisCDXSource: 2.624
+  PetaboxLoader3.resolve: 165.407 (4)
+  load_resource: 80.07
+*/

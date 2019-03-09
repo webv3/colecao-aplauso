@@ -1,0 +1,3049 @@
+/* CSS Document */
+
+html, body {
+	padding:0;
+	margin:0
+}
+* {
+	padding:0;
+	margin:0;
+	border:none;
+	list-style:none;
+}
+body {
+	/*background-image:url(../imagesbackground_home.jpg);*/
+	background-color:#0e0e0e;
+	background-position:center;
+	background-position:top;
+	background-repeat:no-repeat;
+	padding:0;
+	margin:0;
+	height:100%;
+}
+/* BACKGROUNDs BODY # # # # # # # # # # # */
+.background1 {
+	background-image:url('../images/background_01.jpg');
+}
+.background2 {
+	background-image:url('../images/background_02.jpg');
+}
+.background3 {
+	background-image:url('../images/background_03.jpg');
+}
+.background4 {
+	background-image:url('../images/background_04.jpg');
+}
+.background5 {
+	background-image:url('../images/background_05.jpg');
+}
+/* BACKGROUNDs BODY # # # # # # # # # # # */
+
+
+
+.reticula {
+	background-image:url('../images/reticula.gif');
+	background-repeat:repeat;
+	height:100%;
+}
+#container {
+	width:99.9%;
+	background-image:url('../images/reticula.gif');
+}
+#page_center {
+	width:990px;
+	/*position:relative;
+	left:50%;
+	margin-left:-505px;*/
+	padding-top:20px;
+	padding-left:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*CONTINUA NA WEB - CORES*/
+
+.txt1_verde, .txt2_verde {
+	padding:0 3px 0 3px;
+	background-color:#89c742;
+}
+.txt1_laranja, .txt2_laranja {
+	padding:0 3px 0 3px;
+	background-color:#f26522;
+}
+.txt1_azul, .txt2_azul {
+	padding:0 3px 0 3px;
+	background-color:#20409a;
+}
+.txt1_roxo, .txt2_roxo {
+	padding:0 3px 0 3px;
+	background-color:#7f3f98;
+}
+.txt1_vinho, .txt2_vinho {
+	padding:0 3px 0 3px;
+	background-color:#a90e13;
+}
+/* inicio BUSCA # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # */
+.lupa {
+	background-image:url('../images/lupa_busca.jpg');
+	float:left;
+	height:23px;
+ *+height:24px;
+	padding:3.5px 0;
+	text-indent:-20000px;
+	width:29px;
+	z-index:30000;
+ *+text-indent:0px;
+}
+#lupa {
+	background-image:url('../images/lupa_busca.jpg');
+	height:30px;
+	padding:3.5px 0;
+	width:29px;
+	z-index:30000;
+	text-indent:-20000px;
+}
+#busca-livros {
+	margin-bottom:6px;
+	position:relative;
+}
+#busca-livros label {
+	height:50px;
+}
+#busca-livros input .campo_texto {
+	background-color:#fff;
+	height:23px;
+	width:175px;
+	float:left;
+	padding-top:7px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+}
+
+.mostra_texto_busca {
+	height:16px;
+	padding:7px;
+	position:absolute;
+	width:100px;
+}
+#caixa_busca {
+	padding:7px 0;
+	float:left;
+	width:173px;
+	position:absolute;
+	background-image:url('../images/texto_busca.jpg');
+	background-position:left;
+	background-repeat:no-repeat;
+}
+.bt-ok {
+	background-image:url('../images/btn-ok-busca.png');
+	background-repeat:no-repeat;
+	cursor:pointer;
+	height:19px;
+	/*left:300px;*/
+	position:relative;
+	text-indent:-999999px;
+	margin-top:3px;
+/*	top:94px;
+*+top:75px;*/
+	width:34px;
+	float:right;
+}
+/* final BUSCA # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # */
+
+
+
+
+/* INICIO navegacao  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # */
+#navegacao {
+	float:left;
+	width:200px;
+}
+/* FIM navegacao  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # */
+
+
+
+
+
+
+
+
+
+
+
+/*Inicio FOOTER # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # */
+#footer {
+	margin:5px;
+	margin-top:50px;
+	clear:both;
+	color:#FFFFFF;
+	/*+*margin-left:15px;
+	+*width:900px;*/
+	position:relative;
+	bottom:0;
+}
+#footer p {
+	float:left;
+	font-family:Tahoma;
+	font-size:10px;
+}
+/* imagens / governo , imprensa oficial*/
+#footer .governo {
+	margin-top:-10px;
+}
+#footer .impresaooficial {
+	margin-top:-10px;
+	margin-left:345px;
+	margin-left:345px;
+}
+/*LADO DIREITO*/
+#footer .cappuccino {
+	margin-left:20px;
+	margin-top:-4px;
+}
+#footer .cappuccino img {
+	margin-top:2px;
+	position:relative;
+	top:2px;
+	margin-right:4px;
+}
+/* LINKS */
+#footer .cappuccino a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#footer .cappuccino a:visited {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#footer .cappuccino a:hover {
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+/*final  FOOTER # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # */
+
+
+
+
+
+/*INICIO INDICAR PARA AMIGO # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+.menu_indicar {
+	margin-top:35px;
+	margin-bottom:50px;
+	display:block;
+}
+.menu_indicar li {
+	margin-bottom:10px;
+}
+/*FIM INDICAR PARA AMIGO # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Livros Relaccionados*/
+#titulos_relacionados {
+	clear:both;
+	margin-bottom:50px;
+	margin-top:25px;
+	display:block;
+}
+/*COMPRAR LIVRO / LER LIVRO ######################################*/
+#comprar_livro {
+	float:left;
+}
+/*PAGINA INICIAL - HOME ###################################################################################### */
+.banner_pagina_vermelho {
+	width:600px;
+	height:50px;
+	background-image:url(../imageslogo_topo_vermelho.png);
+	background-repeat:no-repeat;
+}
+.banner_pagina_verde {
+	width:600px;
+	height:50px;/*background-image:url(../imageslogo_topo_verde_03.png);
+	background-repeat:no-repeat;*/
+}
+.banner_pagina_roxo {
+	width:600px;
+	height:50px;/*background-image:url(../imageslogo_topo_roxo.png);
+	background-repeat:no-repeat;*/
+}
+.banner_pagina_azul {
+	width:600px;
+	height:50px;/*background-image:url(../imageslogo_topo_azul.png);
+	background-repeat:no-repeat;*/
+}
+.banner_pagina_laranja {
+	width:600px;
+	height:50px;/*background-image:url(../imageslogo_topo_laranja.png);
+	background-repeat:no-repeat;*/
+}
+.banner_pagina_vinho {
+	width:600px;
+	height:50px;/*background-image:url(../imageslogo_topo_vinho.png);
+	background-repeat:no-repeat;*/
+}
+.topo-livros {
+	margin-bottom:2px;
+}
+.comeco {
+}
+.topo-verde {
+	margin-bottom:-4px;
+}
+.topo-vermelho {
+	margin-bottom:3px;
+}
+.topo-roxo {
+	margin-bottom:0px;
+}
+.comeco-vermelho {
+	margin-bottom:3px;
+}
+#menu li {
+	list-style:none;
+	margin-top:-5px;
+}
+#menu li ul li img {
+	border-bottom:solid 2px #c8c8c8;
+}
+/* INICIO Conteudo #########################*/
+.conteudo_home {
+	padding-top:55px;
+	float:left;
+	margin-left:10px;
+	margin-bottom:30px;
+	width:750px;
+	min-height:500px;
+}
+#container #page_center div.conteudo_livro_autor {
+	padding-top:55px;
+	float:left;
+	margin-left:10px;
+	margin-bottom:30px;
+	width:750px;
+	min-height:500px;
+}
+/* INICIO Lista de Livros #######################################################################################
+#############################################################################################################*/
+
+
+/* CLASS PARA PHP*/
+.conteudo_lista_livros .numero_paginas .selected {
+/*background-color:#89c742;*/
+}
+.conteudo_lista_livros .numero_paginas .espaco {
+	background:#000000 none repeat scroll 0 0;
+	width:20px;
+}
+.espaco {
+	background:#000000 none repeat scroll 0 0;
+	width:20px;
++*height:20px;
+}
+.espaco p {
+	color:#FFFFFF;
+	font-size:25px;
+	font-weight:bold;
+	height:24px;
+	margin-left:1px;
+	margin-top:-24px;
+}
+.conteudo_lista_livros .numero_paginas .espaco p {
+	color:#FFFFFF;
+	font-size:25px;
+	font-weight:bold;
+	height:24px;
+	margin-left:1px;
+	margin-top:-24px;
+}
+.conteudo_lista_livros .numero_paginas_baixo .espaco p {
+	color:#FFFFFF;
+	font-size:25px;
+	font-weight:bold;
+	height:24px;
+	margin-left:1px;
+	margin-top:-24px;
+}
+.conteudo_lista_livros .numero_paginas_baixo .espaco {
+	background:#000000 none repeat scroll 0 0;
+	width:20px;
+}
+/* CLASS PARA PHP*/
+
+
+
+.conteudo_lista_livros {
+	float:left;
+	padding-top:55px;
+	margin-left:210px;
+ *+position:relative; /*HACK IE7*/
+ *+left:-140px; /*HACK IE7*/
+ *+top:25px; /*HACK IE7*/
+	margin-bottom:100px;
+	width:550px;
+}
+/* inicio numeros paginas*/
+.conteudo_lista_livros .numero_paginas {/*alinha a lista de numero de cima*/
+	margin-left:-185px;
+ *+position:relative; /*HACK IE7*/
+ *+left:-50px; /*HACK IE7*/
+	margin-top:50px;
+}
+.conteudo_lista_livros .numero_paginas_baixo {/*alinha a lista de numero debaixo*/
+	margin-left:187px;
+	position:relative;
+	top:15px;
+ *+top:20px; /*HACK IE7*/
+ *+left:50px; /*HACK IE7*/
+}
+.conteudo_lista_livros .numero_paginas .seta { /*a setinha dos botoes*/
+	color:#FFFFFF;
+	font-size:15pt;
+	font-family:"Times New Roman", Times, serif;
+	margin-left:20px;
+	position:relative;
+	top:2px;
+}
+/* anterior*/
+.conteudo_lista_livros .numero_paginas .anterior {
+	background:transparent;
+	margin-right:12px;
+	margin-bottom:10px;/* hack para o bt ficar a direita*/
+	padding-left:10px;
+	padding-top:3px;
+	width:100px;
+	height:24px;
+}
+/* proxima */
+.conteudo_lista_livros .numero_paginas .proxima {
+	background:transparent !important;
+	height:21px;
+	margin-left:10px;
+	padding:3px 10px 10px 12px;
+	width:100px;
+ *+height:20px; /*HACK IE7*/;
+}
+.conteudo_lista_livros .numero_paginas .proxima a {
+	widows:111px;
+	height:30px;
+	text-indent: 0 !important;
+}
+.conteudo_lista_livros .numero_paginas a:hover {
+	text-decoration:underline;
+}
+.conteudo_lista_livros .numero_paginas li {
+	float:left;
+	padding:7px;
+	margin-top:-28px;
+	margin-right:3px;
+	background-color:#000;
+}
+.conteudo_lista_livros .numero_paginas li a {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:11pt;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:bold;
+}
+/**************############################***********/
+
+/* inicio numeros paginas*/
+
+.opcoes-comentar .comentar a {
+}
+.comentarios-paginacao {
+*+margin-bottom:80px;
+	margin-bottom:100px;
+}
+.numero_paginas {/*alinha a lista de numero de cima*/
+ *+margin-left:0;
+	margin-left:-187px;
+	margin-top:50px;
+	margin-bottom:70px;
+ +*margin-bottom:30px;
+}
+.numero_paginas_comentarios {
+	margin-bottom:70px !important;
+	margin-top:47px !important;
+	margin-left:0px !important;
+}
+.numero_paginas_baixo {/*alinha a lista de numero debaixo*/
+	margin-left:0px;
+ *+margin-left:0px;
+	position:relative;
+}
+.numero_paginas .seta { /*a setinha dos botoes*/
+	color:#FFFFFF;
+	font-size:15pt;
+	font-family:"Times New Roman", Times, serif;
+	margin-left:20px;
+	position:relative;
+	top:2px;
+}
+/* anterior*/
+.numero_paginas .anterior {
+	background:transparent !important;
+	margin-right:12px;
+	margin-bottom:10px;/* hack para o bt ficar a direita*/
+	padding-left:10px;
+	padding-top:3px;
+	width:100px;
+	height:24px;
+}
+/* proxima */
+.numero_paginas .proxima {
+	background:transparent !important;
+	height:21px;
+	margin-left:0px;
+	padding:3px 10px 10px 12px;
+	width:100px;
+ *+height:20px; /*HACK IE7*/;
+}
+.numero_paginas a:hover {
+	text-decoration:underline;
+}
+.numero_paginas li {
+	float:left;
+	padding:7px;
+	margin-top:-28px;
+	margin-right:3px;
+	background-color:#000;
+}
+.numero_paginas li a {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:11pt;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:bold;
+}
+.selected a {
+	color:#89C742 !important;
+}
+.conteudo_na_midia .selected a {
+	color:#20409A !important;
+}
+/*INICIO INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+.conteudo_lista_livros #voltar {
+	clear:both;
+	width:75px;
+	height:15px;
+	margin-top:15px;
+	padding:10px;
+	background-color:#fff;
+	clear:both;
+ *+position:relative;/*HACK IE6*/
+ *+left:4px;/*HACK IE6*/
+}
+.conteudo_lista_livros #voltar a {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	position:relative;
+	top:-3px;
+}
+.conteudo_lista_livros #voltar a:visited {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	position:relative;
+	top:-3px;
+}
+/*FIM BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+
+
+
+
+
+
+
+
+
+.conteudo_lista_livros #box_tranparente {
+	margin-top:10px;
+	padding:15px;
+	position:relative;
+ *+width:700px;/*HACK IE7*/
+ *+position:relative;/*HACK IE7*/
+ *+left:80px;/*HACK IE7*/
+}
+.conteudo_lista_livros #box_tranparente .texto {
+	float:left;
+	margin-left:70px;
+	width:430px;
+}
+.conteudo_lista_livros #box_tranparente .texto .verde {
+	color:#89c742;
+	font-family:Tahoma, arial, verdana;
+	margin-bottom:20px;
+	font-size:10pt;
+}
+.conteudo_lista_livros #box_tranparente .texto .branco {
+	color:#fff;
+	font-family:Tahoma, arial, verdana;
+	margin-bottom:20px;
+	font-size:10pt;
+}
+/* inicio CAIXA TRANSPARENTE CONTEUDO*/
+.conteudo_lista_livros #box_tranparente .lista_livros .back_verde {/* cor verde*/
+	background-image:url(../images/back_alpha_green.png);
+	padding:10px;
+	/* *+padding:5px;/*HACK IE6*/
+	padding-right:0;
+	clear:both;
+	/* *+position:relative;/*HACK IE6*/
+/* *+top:-20px;/*HACK IE6*/
+  margin-bottom:10px;
+}
+.conteudo_lista_livros #box_tranparente .lista_livros .back_preto {/* cor preta*/
+	background-image:url(../images/back_alpha_box.png);
+	padding:10px;
+	/* *+padding:5px;/*HACK IE6*/
+	padding-right:0;
+	clear:both;
+	/* *+position:relative;/*HACK IE6*/
+/* *+top:-20px;/*HACK IE6*/
+ margin-bottom:10px;
+}
+/* conteudo da lista */
+.conteudo_lista_livros #box_tranparente .lista_livros .foto_livro {/* fotodo livro */
+	float:left;
+	margin-right:40px;/* *+position:relative;/*HACK IE6*//* *+top:2px;/*HACK IE6*/
+/* *+left:5px;/*HACK IE6*/
+}
+.conteudo_lista_livros #box_tranparente .lista_livros .back_preto .informacoes {/* descricao / borda (preto) */
+	float:left;
+	/*border-bottom:solid 1px #4e4e4e;*/
+	width:530px;/* *+width:370px/*HACK IE6*/
+}
+.conteudo_lista_livros #box_tranparente .lista_livros .back_verde .informacoes {/* descricao / borda (verde) */
+	float:left;
+	/*  border-bottom:solid 1px #a4d270;*/
+	width:530px;/* *+width:370px/*HACK IE6*/
+}
+/*configuracao fonte texto lista*/
+.conteudo_lista_livros #box_tranparente .lista_livros .informacoes .nome_livro {
+	/*float:left;*/
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18pt;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:normal;
+	height:40px;
+}
+.conteudo_lista_livros #box_tranparente .lista_livros .back_preto .informacoes .nome_livro {
+	border-bottom:solid 1px #4e4e4e;
+}
+.conteudo_lista_livros #box_tranparente .lista_livros .back_verde .informacoes .nome_livro {
+	border-bottom:solid 1px #a4d270;
+}
+.conteudo_lista_livros #box_tranparente .lista_livros .informacoes .autor {
+	float:left;
+	width:300px;
+}
+.conteudo_lista_livros #box_tranparente .lista_livros .back_verde .informacoes .autor {
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16pt;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:normal;
+}
+.conteudo_lista_livros #box_tranparente .lista_livros .back_preto .informacoes .autor {
+	color:#89c742;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16pt;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:normal;
+}
+/* SERIE # # # # # # # # #  */
+.conteudo_lista_livros #box_tranparente .lista_livros .informacoes .serie {
+	clear:both;
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:10pt;
+	width:300px;
+}
+.conteudo_lista_livros #box_tranparente .lista_livros .informacoes .serie .titulo_serie {
+	display:block;
+	margin-bottom:10px;
+	padding-top:10px;
+	font-size:12pt;
+	font-style:italic;
+}
+.conteudo_lista_livros #box_tranparente .lista_livros .informacoes .serie .descricao {
+	font-family:Tahoma, arial, verdana;
+}
+/* FIM Lista de Livros #######################################################################################
+#############################################################################################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO livro sobre o autor ###################################################################*/
+
+.conteudo_sobre_autor {
+	padding-top:55px;
+	float:left;
+	margin-left:10px;
+	margin-bottom:30px;
+	width:750px;
+	min-height:500px;
+}
+.conteudo_sobre_autor h1 {
+	background-color:#89c742;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	font-size:45pt;
+	font-weight:normal;
+	font-style:italic;
+	width:480px;
+	padding:8px;
+}
+.conteudo_sobre_autor h3 {
+	background-color:#89c742;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	font-size:15pt;
+	font-weight:normal;
+	font-style:italic;
+	width:370px;
+	padding:8px;
+	padding-top:0;
+}
+#box_tranparente {
+	margin-top:10px;
+	margin-left:-150px;
+	padding:15px;
+	position:relative;
+	left:-50px;
+}
+.conteudo_sobre_autor #box_tranparente .foto {
+	float:left;
+}
+.conteudo_sobre_autor #box_tranparente .texto {
+	float:left;
+	margin-left:70px;
+	width:430px;
+}
+.conteudo_sobre_autor #box_tranparente {
+	margin-left:50px;
+	margin-bottom:50px;
+	background-image:url(../images/back_alpha_box.png);
+}
+.conteudo_sobre_autor #box_tranparente h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	font-size:20pt;
+	font-weight:normal;
+	font-style:italic;
+}
+.conteudo_sobre_autor #box_tranparente em {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	font-size:12pt;
+	font-weight:normal;
+	font-style:italic;
+}
+.conteudo_sobre_autor #box_tranparente .texto .verde {
+	color:#89c742;
+	font-family:Tahoma, arial, verdana;
+	margin-bottom:20px;
+	font-size:10pt;
+}
+.conteudo_sobre_autor #box_tranparente .texto .branco {
+	color:#fff;
+	font-family:Tahoma, arial, verdana;
+	margin-bottom:20px;
+	font-size:10pt;
+}
+.conteudo_sobre_autor .videos_fotos li {
+	float:left;
+	margin-right:25px;
+	margin-top:-10px;
+}
+.videos_fotos {
+	float:left;
+	width:320px;
+	margin-right:35px;
+}
+/*INICIO INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+.conteudo_sobre_autor #voltar {
+	clear:both;
+	width:75px;
+	height:15px;
+	margin-top:15px;
+	padding:10px;
+	background-color:#fff;
+	clear:both;
+ *+position:relative;/*HACK IE6*/
+ *+left:4px;/*HACK IE6*/
+}
+.conteudo_sobre_autor #voltar a {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-3px;
+}
+.conteudo_sobre_autor #voltar a:visited {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-3px;
+}
+.conteudo_sobre_autor #voltar a:hover {
+	text-decoration:underline;
+}
+/*FIM INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+
+
+
+/* FIM livro sobre o autor ################################################################################################
+###########################################################################################################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO Conteudo Livro Interna ########################################################################
+#########################################################################################################*/
+
+.conteudo_livro_interna {
+	padding-top:55px;
+	float:left;
+	margin-left:10px;
+	margin-bottom:150px;
+	width:770px;
+}
+.conteudo_livro_interna #box_tranparente {
+	margin-left:50px;
+	margin-top:15px;
+	margin-bottom:50px;
+	padding:30px 20px 0px 20px;
+	background-image:url(../images/back_alpha_box.png);
+	width:455px;
+	float:left;
+}
+.conteudo_livro_interna #box_tranparente .texto {/*Conteudo que esta dentro da DIV*/
+	float:left;
+	width:100%;
+}
+.conteudo_livro_interna h1 {
+	background-color:#89C742;
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:35pt;
+	font-style:italic;
+	font-weight:normal;
+	padding:0 15px 3px;
+	width:462px;
+}
+.conteudo_livro_interna h3 {
+	background-color:#89c742;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	font-size:13pt;
+	font-weight:normal;
+	font-style:italic;
+	width:370px;
+	padding:8px;
+	padding-top:0;
+}
+.conteudo_livro_interna .autor {
+	font-size:12pt !important;
+	font-weight:bold !important;
+}
+/*cores dos textos / dentro da div transparente*/
+.conteudo_livro_interna #box_tranparente .texto .verde {
+	color:#89c742;
+	font-family:Tahoma, arial, verdana;
+	margin-bottom:20px;
+	font-size:10pt;
+}
+.conteudo_livro_interna #box_tranparente .texto .branco {
+	color:#fff;
+	font-family:Tahoma, arial, verdana;
+	margin-bottom:5px;
+	font-size:10pt;
+}
+/*Inicio Comprar Ver Livro ###########*/
+#comprar_livro {
+	float:left;
+	margin-left:-30px;
+	margin-top:13px;
+	position:relative;
+	text-align:center;
+	width:250px;
+	z-index:1;
+}
+#comprar_livro a img {
+	margin-top:0px;
+}
+/*Inicio Livros Fotos ###########*/
+.conteudo_livro_interna .videos_fotos {
+/*padding-top:40px;
+	*+padding-top:20px;/*HACK IE7*//**/
+
+}
+.conteudo_livro_interna .videos_fotos li {
+	float:left;
+	margin-right:20px;
+}
+/*fim Livros Fotos ###########*/
+
+
+
+
+
+/*INICIO INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+.conteudo_livro_interna #voltar {
+	clear:both;
+	width:75px;
+	height:15px;
+	margin-top:15px;
+ +*margin-top:25px;
+	padding:10px;
+	background-color:#fff;
+	clear:both;
+ *+position:relative;/*HACK IE6*/
+ *+left:4px;/*HACK IE6*/
+}
+.conteudo_livro_interna #voltar a {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-3px;
+}
+.conteudo_livro_interna #voltar a:visited {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-3px;
+}
+.conteudo_livro_interna #voltar a:hover {
+	text-decoration:underline;
+}
+/*FIM INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+
+
+/* FIM Conteudo Livro Interna ############################################################################################
+########################################################################################################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO Conteudo Indicar ###################################################################*/
+
+.conteudo_indicar {
+	padding-top:55px;
+	float:left;
+	margin-left:10px;
+	margin-bottom:30px;
+	width:770px;
+}
+.conteudo_indicar h1 {
+	background-color:#89c742;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	font-size:45pt;
+	font-weight:normal;
+	font-style:italic;
+	width:480px;
+	padding:8px;
+}
+.conteudo_indicar h3 {
+	background-color:#89c742;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	font-size:15pt;
+	font-weight:normal;
+	font-style:italic;
+	width:370px;
+	padding:8px;
+	padding-top:0;
+}
+.conteudo_indicar #box_tranparente {
+	margin-left:50px;
+	margin-bottom:60px;
+	padding:30px 20px 20px 20px;
+	background-image:url(../images/back_alpha_box.png);
+	width:700px;
+	float:left;
+}
+/*Texto com a descric�o form*/
+.conteudo_indicar #box_tranparente .formulario p {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:8pt;
+	font-weight:normal;
+	border-top:solid 1px #333;
+	border-bottom:solid 1px #333;
+	width:725px;
+	margin-top:-20px;
+	margin-left:-10px;
+	margin-bottom:20px;
+}
+.conteudo_indicar #box_tranparente .formulario p span {
+	display:block;
+	font-family:Tahoma, arial, verdana;
+	font-size:10pt;
+	left:50%;
+	margin-left:-290px;
+	padding:10px 0;
+	position:relative;
+	width:580px;
+}
+/*inicia os campos do formulario*/
+.conteudo_indicar #box_tranparente .formulario fieldset {
+	width:560px;
+	position:relative;
+	left:50%;
+ *left:10%;
+	margin-left:-290px;
+ *margin-left:0px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	font-style:italic;
+	font-size:13pt;
+}
+.conteudo_indicar #box_tranparente .formulario .part1 {
+	margin-bottom:28px;
+}
+.conteudo_indicar #box_tranparente .formulario fieldset label {
+	display:block;
+	clear:both;
+	margin-bottom:17px;
+}
+.conteudo_indicar #box_tranparente .formulario fieldset input {
+	margin-left:30px;
+	width:380px;
+	height:20px;
+	background-color:#000;
+	border:solid 1px #333;
+	float:right;
+	padding-top:4px;
+	padding:4px;
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:9pt;
+}
+.conteudo_indicar #box_tranparente .formulario fieldset .enviar input {
+	background-color:#89c742;
+	width:90px;
+	height:32px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:15pt;
+	margin-top:30px;
+	padding-top:0;
+}
+/*cores dos textos / dentro da div transparente*/
+.conteudo_indicar #box_tranparente .texto .verde {
+	color:#89c742;
+	font-family:Tahoma, arial, verdana;
+	margin-bottom:20px;
+	font-size:10pt;
+}
+.conteudo_indicar #box_tranparente .texto .branco {
+	color:#fff;
+	font-family:Tahoma, arial, verdana;
+	margin-bottom:20px;
+	font-size:10pt;
+}
+/*Inicio Livros Fotos ###########*/
+.conteudo_indicar .videos_fotos {
+	clear:both;
+}
+.conteudo_indicar .videos_fotos li {
+	float:left;
+	margin-right:20px;
+}
+/*INICIO INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+.conteudo_indicar #voltar {
+	clear:both;
+	width:75px;
+	height:15px;
+	padding:10px;
+	background-color:#fff;
+	clear:both;
+ *+position:relative;/*HACK IE6*/
+ *+top:-10px;
+
+}
+.conteudo_indicar #voltar a {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-3px;
+}
+.conteudo_indicar #voltar a:visited {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-3px;
+}
+.conteudo_indicar #voltar a:hover {
+	text-decoration:underline;
+}
+/*FIM INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+
+
+/* FIM Conteudo Indicar ##################################################################################################
+#######################################################################################################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO CONTEUDO VIDEOS ###################################################################################################
+########################################################################################################################*/
+
+.conteudo_videos .video {
+	background-image:url(../images/back_alpha_box.png);
+	margin-left:-200px;
+	width:720px;
+ *+width:740px;/*HACK IE7*/
+	padding:10px;
+}
+.conteudo_videos .video .titulo_video {
+	border-bottom:1px solid #777777;
+	border-top:1px solid #777777;
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18pt;
+	font-style:italic;
+	font-weight:normal;
+	margin-bottom:20px;
+	padding:3px;
+}
+.conteudo_videos {
+	padding-top:55px;
+	float:left;
+	margin-left:210px;
+	margin-bottom:30px;
+	width:550px;
+}
+.conteudo_videos #box_tranparente {
+	margin-top:10px;
+	padding:15px;
+	position:relative;
+}
+.conteudo_videos #box_tranparente .texto {
+	float:left;
+	margin-left:70px;
+	width:430px;
+}
+.conteudo_videos #box_tranparente .texto .verde {
+	color:#89c742;
+	font-family:Tahoma, arial, verdana;
+	margin-bottom:20px;
+	font-size:10pt;
+}
+.conteudo_videos #box_tranparente .texto .branco {
+	color:#fff;
+	font-family:Tahoma, arial, verdana;
+	margin-bottom:20px;
+	font-size:10pt;
+}
+/*VIDEO / O*/
+.conteudo_videos .video object {
+	margin-top:10px;
+	display:block;
+}
+/* inicio CAIXA TRANSPARENTE CONTEUDO*/
+
+.conteudo_videos #box_tranparente .lista_livros {
+	margin-left:-16px;
+	width:750px;
+ *+width:790px;/*HACK IE7*/
+}
+/*OUTROS VIDEOS */
+.conteudo_videos #box_tranparente .lista_livros .outros_videos {
+	background-color:#f26522;
+	width:140px;
+	padding:10px 0 10px 0;
+	text-align:center;
+ *+margin-left:-13px;/*HACK IE7*/
+	color:#FFFFFF;
+	font-size:15pt;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	text-decoration:none;
+}
+.conteudo_videos #box_tranparente .lista_livros .back_verde/*laranja*/ {/* cor verde*/
+	float:left;
+	background-image:url(../imagesback_alpha_orange.png);
+	padding:10px;
+	padding-right:0;
+	border-top:1px #555 solid;
+	width:361px;
+ *+width:377px;/*HACK IE7*/
+	height:80px;
+ *+margin-left:-15px;
+}
+.conteudo_videos #box_tranparente .lista_livros .back_preto {/* cor preta*/
+	float:left;
+	background-image:url(../images/back_alpha_box.png);
+	padding:10px;
+	padding-right:0;
+	border-top:1px #555 solid;
+	width:361px;
+ *+width:377px;/*HACK IE7*/
+	height:80px;
+ *+margin-left:-15px;/*HACK IE7*/
+}
+/* conteudo da lista */
+.conteudo_videos #box_tranparente .lista_livros .back_preto .informacoes {/* descricao / borda (preto) */
+	float:left;
+	width:160px;
+	margin-left:-20px;
+}
+.conteudo_videos #box_tranparente .lista_livros .back_verde .informacoes {/* descricao / borda (verde) */
+	float:left;
+	margin-left:-20px;
+}
+/*configuracao fonte texto lista*/
+.conteudo_videos #box_tranparente .lista_livros .foto_livro {/* fotodo livro */
+	float:left;
+	margin-right:40px;
+}
+.conteudo_videos #box_tranparente .lista_livros .foto_livro img {
+	width:50px;
+}
+.conteudo_videos #box_tranparente .lista_livros .informacoes .nome_livro {
+	float:left;
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14pt;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:normal;
+}
+.conteudo_videos #box_tranparente .lista_livros .informacoes .nome_livro a {
+	color:#fff;
+	text-decoration:none;
+}
+.conteudo_videos #box_tranparente .lista_livros .informacoes .serie {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:8pt;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:normal;
+	display:block;
+	clear:both;
+}
+/*INICIO INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+.conteudo_videos #voltar {
+	clear:both;
+	width:75px;
+	height:15px;
+	padding:10px;
+	background-color:#fff;
+	clear:both;
+	position:relative;/*HACK IE6*/
+	top:20px;
+ *+left:-15px;/*HACK IE6*/
+}
+.conteudo_videos #voltar a {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-3px;
+}
+.conteudo_videos #voltar a:visited {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-3px;
+}
+.conteudo_videos #voltar a:hover {
+	text-decoration:underline;
+}
+/*FIM BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+
+/* FIM CONTEUDO VIDEOS ###################################################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO NA MIDIA #######################################################################################
+#############################################################################################################*/
+.namidia-paginacao {
+	margin-top:-50px;
+*+margin-top:-10px;
+}
+.coment-list {
+	margin-left:0px;
+}
+.conteudo_na_midia {
+	float:left;
+	padding-top:55px;
+	margin-left:210px;
+ *+position:relative; /*HACK IE7*/
+ *+left:-140px; /*HACK IE7*/
+ *+top:25px; /*HACK IE7*/
+	margin-bottom:30px;
+	width:550px;
+}
+/*INICIO INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+.conteudo_na_midia #voltar {
+	clear:both;
+	width:75px;
+	height:15px;
+	margin-top:15px;
+	padding:10px;
+	background-color:#fff;
+	clear:both;
+	position:relative;/*HACK IE6*/
+	left:-181px;
+	top:10px;
+ *+left:-53px;/*HACK IE6*/
+}
+.conteudo_na_midia #voltar a {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	text-decoration:none;
+	font-weight:bold;
+	position:relative;
+	top:-3px;
+}
+.conteudo_na_midia #voltar a:visited {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	text-decoration:none;
+	font-weight:bold;
+	position:relative;
+	top:-3px;
+}
+.conteudo_na_midia #voltar a:hover {
+	text-decoration:underline;
+}
+/*FIM BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+
+
+
+
+
+
+
+
+
+.conteudo_na_midia #box_tranparente {
+	margin-top:-20px;
+ +*margin-top:80px;
+	padding:15px;
+	position:relative;
+ *+width:700px;/*HACK IE7*/
+ *+position:relative;/*HACK IE7*/
+ *+left:80px;/*HACK IE7*/
+}
+/* inicio CAIXA TRANSPARENTE CONTEUDO*/
+.conteudo_na_midia #box_tranparente .lista_pdf .back_azul {/* cor verde*/
+	height:100px;
+ *+height:138px;;/*HACK IE7*/
+	background-image:url(../imagesback_alpha_blue.png);
+	padding:25px;
+ *+padding:5px;/*HACK IE6*/
+	padding-right:0;
+	clear:both;
+	margin-bottom:5px;
+ *+position:relative;/*HACK IE6*/
+ *+top:-20px;/*HACK IE6*/
+}
+.conteudo_na_midia #box_tranparente .lista_pdf .back_preto {/* cor preta*/
+	height:100px;
+ *+height:138px;;/*HACK IE7*/
+	background-image:url(../images/back_alpha_box.png);
+	padding:25px;
+ *+padding:5px;/*HACK IE6*/
+	padding-right:0;
+	clear:both;
+	margin-bottom:5px;
+ *+position:relative;/*HACK IE6*/
+ *+top:-20px;/*HACK IE6*/
+}
+/* conteudo da lista */
+.conteudo_na_midia #box_tranparente .lista_pdf .ico_pdf {/* fotodo livro */
+	float:left;
+	margin-right:40px;
+ *+position:relative;/*HACK IE6*/
+ *+top:15px;/*HACK IE6*/
+ *+left:15px;/*HACK IE6*/
+}
+.conteudo_na_midia #box_tranparente .lista_pdf .back_preto .informacoes {/* descricao / borda (preto) */
+	float:left;
+	width:530px;
+	color:#fff;
+ *+width:370px;/*HACK IE6*/
+	width:500px;
+ *+margin-top:15px;/*HACK IE6*/
+}
+.conteudo_na_midia #box_tranparente .lista_pdf .back_azul .informacoes {/* descricao / borda (verde) */
+	float:left;
+	width:530px;
+	color:#fff;
+ *+width:370px;/*HACK IE6*/
+	width:500px;
+ *+margin-top:15px;/*HACK IE6*/
+}
+.conteudo_na_midia #box_tranparente .lista_pdf .informacoes .descricao {
+	font-size:16px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-weight:bold;
+	display:block;
+	margin-bottom:30px;
+	color:#fff;
+}
+.conteudo_na_midia #box_tranparente .lista_pdf .informacoes .descricao a {
+	color:#fff;
+	text-decoration:none;
+}
+.conteudo_na_midia #box_tranparente .lista_pdf .informacoes .endereco {
+	font-size:14px;
+	display:block;
+}
+.conteudo_na_midia #box_tranparente .lista_pdf .informacoes .data {
+	font-size:14px;
+	display:block;
+}
+/* FIM Lista de Livros #######################################################################################
+#############################################################################################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO CONTEUDO EVENTOS ###################################################################################################
+########################################################################################################################*/
+
+.conteudo_eventos .video {
+	background-image:url(../images/back_alpha_box.png);
+	margin-left:-200px;
+	width:720px;
+ *+width:740px;/*HACK IE7*/
+	padding:10px;
+}
+.conteudo_eventos .video .titulo_video {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18pt;
+	font-style:italic;
+	font-weight:bold;
+	padding:3px;
+	padding-top:10px;
+	border-top:#777 solid 1px;
+}
+.conteudo_eventos .video .data {
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:11pt;
+	font-weight:bold;
+}
+.conteudo_eventos .video .midia {
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-weight:bold;
+	font-size:11pt;
+	font-weight:bold;
+	;
+	margin-left:70px;
+}
+.conteudo_eventos {
+	padding-top:55px;
+	float:left;
+	margin-left:210px;
+	margin-bottom:30px;
+	width:550px;
+}
+.conteudo_eventos #box_tranparente {
+	margin-top:10px;
+	padding:15px;
+	margin-left:-150px;
+ *+margin-left:-135px;/*HACK IE7*/
+	position:relative;
+}
+.conteudo_eventos #box_tranparente .texto {
+	float:left;
+	margin-left:70px;
+	width:430px;
+}
+/* inicio CAIXA TRANSPARENTE CONTEUDO*/
+
+.conteudo_eventos #box_tranparente .lista_eventos {
+	margin-left:-16px;
+	width:750px;
+ *+width:790px;/*HACK IE7*/
+}
+/*OUTROS VIDEOS */
+.conteudo_eventos #box_tranparente .outros_eventos {
+	background-color:#69357d;
+	width:160px;
+	padding:10px 0 10px 0;
+	text-align:center;
+	margin-left:-15px;
+ *+position:relative;/*HACK IE7*/
+ *+left:-30px;/*HACK IE7*/
+	color:#FFFFFF;
+	font-size:17pt;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	text-decoration:none;
+}
+.conteudo_eventos #box_tranparente .lista_eventos .back_roxo {/* cor verde*/
+	background-image:url(../imagesback_alpha_roxo.png);
+	padding:10px;
+	padding-right:0;
+	border-top:1px #555 solid;
+	width:730px;
+ *+width:751px;/*HACK IE7*/
+	height:80px;
+ *+margin-left:-15px;/*HACK IE7*/
+}
+.conteudo_eventos #box_tranparente .lista_eventos .back_preto {/* cor preta*/
+	background-image:url(../images/back_alpha_box.png);
+	padding:10px;
+	padding-right:0;
+	border-top:1px #555 solid;
+	width:730px;
+ *+width:751px;/*HACK IE7*/
+	height:80px;
+ *+margin-left:-15px;/*HACK IE7*/
+}
+/* conteudo da lista */
+.conteudo_eventos #box_tranparente .lista_eventos .back_preto .informacoes {/* descricao / borda (preto) */
+	float:left;
+	width:160px;
+	margin-left:-20px;
+}
+.conteudo_eventos #box_tranparente .lista_eventos .back_roxo .informacoes {/* descricao / borda (verde) */
+	float:left;
+	margin-left:-20px;
+}
+/*configuracao fonte texto lista*/
+.conteudo_eventos #box_tranparente .lista_eventos .foto_evento {/* fotodo livro */
+	float:left;
+	margin-right:40px;
+}
+.conteudo_eventos #box_tranparente .lista_eventos .foto_evento img {
+	width:50px;
+}
+.conteudo_eventos #box_tranparente .lista_eventos .informacoes .nome_livro {
+	float:left;
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14pt;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:normal;
+}
+.conteudo_eventos #box_tranparente .lista_eventos .informacoes .serie {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:8pt;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:normal;
+	display:block;
+	clear:both;
+}
+/*INICIO INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+.conteudo_eventos #voltar {
+	clear:both;
+	width:75px;
+	height:15px;
+	padding:10px;
+	background-color:#fff;
+	clear:both;
+	position:relative;/*HACK IE6*/
+	top:20px;
+	left:-15px;
+ *+left:-30px;/*HACK IE6*/
+}
+.conteudo_eventos #voltar a {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-3px;
+}
+.conteudo_eventos #voltar a:visited {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-3px;
+}
+.conteudo_eventos #voltar a:hover {
+	text-decoration:underline;
+}
+/*FIM BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+
+/* FIM CONTEUDO eventos ###################################################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* inicio Conteudo contato ##################################################################################################
+#######################################################################################################################*/
+
+.conteudo_contato {
+	padding-top:55px;
+	float:left;
+	margin-left:10px;
+	margin-bottom:30px;
+	width:770px;
+}
+.conteudo_contato #box_tranparente {
+	margin-left:50px;
+	padding:30px 20px 20px 20px;
+	background-image:url(../images/back_alpha_box.png);
+	width:700px;
+	float:left;
+}
+/*Texto com a descric�o form*/
+.conteudo_contato #box_tranparente .formulario p {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:8pt;
+	font-weight:normal;
+	border-top:solid 1px #333;
+	border-bottom:solid 1px #333;
+	width:725px;
+	margin-top:-20px;
+	margin-left:-10px;
+	margin-bottom:20px;
+}
+.conteudo_contato #box_tranparente .formulario p span {
+	display:block;
+	font-family:Tahoma, arial, verdana;
+	font-size:10pt;
+	left:50%;
+	margin-left:-290px;
+	padding:10px 0;
+	position:relative;
+	width:580px;
+}
+/*inicia os campos do formulario*/
+.conteudo_contato #box_tranparente .formulario fieldset {
+	width:560px;
+	position:relative;
+	left:50%;
+ *+left:10%;
+	margin-left:-290px;
+ *+margin-left:0px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	font-style:italic;
+	font-size:13pt;
+}
+.conteudo_contato #box_tranparente .formulario .part1 {
+	margin-bottom:28px;
+}
+.conteudo_contato #box_tranparente .formulario fieldset label {
+	display:block;
+	clear:both;
+	margin-bottom:17px;
+}
+.conteudo_contato #box_tranparente .formulario fieldset input {
+	margin-left:30px;
+	width:380px;
+	height:20px;
+	background-color:#000;
+	border:solid 1px #333;
+	float:right;
+	padding-top:4px;
+	padding:4px;
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:9pt;
+}
+.conteudo_contato #box_tranparente .formulario fieldset textarea {
+	margin-left:30px;
+	width:380px;
+	height:130px;
+	background-color:#000;
+	border:solid 1px #333;
+	float:right;
+	padding-top:4px;
+	padding:4px;
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:9pt;
+}
+.conteudo_contato #box_tranparente .formulario fieldset .enviar input {
+	background-color:#a90e13;
+	width:110px;
+	height:38px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:19pt;
+	margin-top:30px;
+	text-align:right;
+	padding-top:0;
+}
+.conteudo_contato #box_tranparente .formulario fieldset .enviar input:hover {
+	text-decoration:underline;
+}
+/*cores dos textos / dentro da div transparente*/
+.conteudo_contato #box_tranparente .texto .verde {
+	color:#89c742;
+	font-family:Tahoma, arial, verdana;
+	margin-bottom:20px;
+	font-size:10pt;
+}
+.conteudo_contato #box_tranparente .texto .branco {
+	color:#fff;
+	font-family:Tahoma, arial, verdana;
+	margin-bottom:20px;
+	font-size:10pt;
+}
+/*Inicio Livros Fotos ###########*/
+.conteudo_contato .videos_fotos {
+	clear:both;
+}
+.conteudo_contato .videos_fotos li {
+	float:left;
+	margin-right:20px;
+}
+/***********###############*************/
+#fotos-videos {
+ *position:relative;
+ *+position:relative;
+	_position:relative;
+ #position:relative;
+	position:inherit;
+	width:750px;
+	float:left;
+	width:750px;
+}
+#twitter_swf {
+}
+.videos_fotos .videos p {
+	background-color:#89C742;
+	height:40px;
+	width:80px;
+}
+.videos_fotos .fotos p {
+	background-color:#89C742;
+	height:40px;
+	width:80px;
+}
+#titulos_relacionados h3 {
+	background-color:#89C742;
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-weight:normal;
+}
+#titulos_relacionados .titulos {
+	background-color:#89C742;
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16pt;
+	font-style:italic;
+	font-weight:normal;
+	padding-right:4px;
+	padding-top:0;
+	padding-left:6px;
+	width:60px;
+}
+#titulos_relacionados .relacionados {
+	background-color:#89C742;
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16pt;
+	font-style:italic;
+	font-weight:normal;
+	margin-bottom:20px;
+	margin-top:0;
+	padding-left:9px;
+	padding-right:4px;
+	width:124px;
+}
+/*
+.leia-livro{
+	cursor:pointer;
+	float:none;
+	left:130px;
+	padding:2px;
+	position:absolute;
+
+}
+*/
+
+
+/**leia livro novo**/
+/*
+.leia-livro-novo{
+margin-left:40px;
+float:left;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-style:italic;
+}
+
+.leia-livro-novo h2{
+background-color:#89C742 !important;
+color:#FFFFFF;
+font-size:30px;
+font-weight:normal;
+padding:5px 12px 0;
+text-align:left;
+width:68px;
+float:left;
+}
+
+.leia-livro-novo h4{
+color:#477711;
+float:left;
+}
+
+.leia-livro-novo p{
+color:#FFFFFF !important;
+float:right;
+
+}*/
+
+.leia-livro-novo {
+	FONT-STYLE: italic;
+	FONT-FAMILY: Georgia, "Times New Roman", Times, serif;
+	FLOAT: left;
+	MARGIN-LEFT: 40px;
+}
+.leia-livro-novo H2 {
+	TEXT-ALIGN: left;
+	PADDING-BOTTOM: 0px;
+	BACKGROUND-COLOR: #89c742 !important;
+	PADDING-LEFT: 12px;
+	WIDTH: 68px;
+	PADDING-RIGHT: 12px;
+	FLOAT: none;
+ *+float:left;
+	COLOR: #ffffff;
+	FONT-SIZE: 30px;
+	FONT-WEIGHT: normal;
+	PADDING-TOP: 5px;
+}
+.leia-livro-novo H4 {
+ *+TEXT-ALIGN: left;
+	WIDTH: 230px;
+	COLOR: #477711;
+	BACKGROUND-COLOR: #89c742 !important;
+	font-weight:normal;
+	padding:5px;
+	font-size:17px;
+}
+.leia-livro-novo P {
+ *+MARGIN-TOP: -18px;
+	FLOAT: right;
+	COLOR: #ffffff !important;
+	background-color:#4B8D00 !important;
+	font-size:14px;
+	padding:2px;
+	cursor:pointer;
+}
+/**fim leia livro novo**/
+
+.fechar-box {
+	background-image:url(../imagescloselabel.gif);
+	background-position:-50px 50%;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	float:right;
+	height:22px;
+	width:20px;
+}
+.link-twittar {
+	margin-top:20px !important;
+}
+
+.imagens-leia {
+	padding:0;
+	position:relative;
+}
+.receba-news {
+	position:relative;
+	margin-bottom:100px;
++*margin-bottom:180px;
+	width:170px;
+}
+.receba-news-neutro {
+	margin-bottom:100px;
+	height:160px;
+	position:relative;
+	top:20px;
+	width:140px;
+}
+.receba-news-livros .txt1-news {
+	color:#fff;/*background-color:#000;*/
+}
+.receba-news-livros .txt2-news {
+	color:#fff;/*background-color:#000;*/
+}
+.receba-news-livros h2 {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14pt;
+	font-style:italic;
+	font-weight:normal;
+	margin-bottom:5px;
+	text-decoration:none;
+}
+.receba-news-livros {
+	height:160px;
+	/*margin-top:150px;
+	*+margin-top:50px;*/
+	top:20px;
+	width:140px;
+}
+.receba-news-neutro h2 .txt1 {
+	background-color:#000000;
+	color:#FFFFFF;
+	font-family:georgia;
+	font-size:22px;
+	font-style:italic;
+	font-weight:normal;
+	padding:0 3px;
+}
+.receba-news-neutro h2 .txt2 {
+	background-color:#000000;
+	color:#FFFFFF;
+	font-family:georgia;
+	font-size:22px;
+	font-style:italic;
+	font-weight:normal;
+	padding:0 3px;
+}
+.news-ok-neutro {
+	background-image:url(../imagesnews-ok-preto.png);
+	background-repeat:no-repeat;
+	height:20px;
+	position:absolute;
+	right:6px;
+	text-indent:-2000000px;
+	top:260px;
+	width:40px;
++*top:145px;
+}
+.obrigado-neutro {
+	color:#FFFFFF;
+	font-family:georgia;
+	font-size:12px;
+	font-style:italic;
+	position:absolute;
+	right:36px;
+	top:220px;
+	width:100px;
+ +*top:110px;
+}
+.news-verde span {
+	background-color:#89C742 !important;
+	color:#fff;
+}
+.news-vinho span {
+	background-color:#000 !important;
+	color:#fff;
+}
+.news-roxo span {
+	background-color:#000 !important;
+	color:#fff;
+}
+.news-azul span {
+	background-color:#000 !important;
+	color:#fff;
+}
+.news-laranja span {
+	background-color:#000 !important;
+	color:#fff;
+}
+.continua-verde span {
+	background-color:#89C742 !important;
+	color:#fff;
+}
+.continua-vinho span {
+	background-color:#000 !important;
+	color:#fff;
+}
+.continua-roxo span {
+	background-color:#000 !important;
+	color:#fff;
+}
+.continua-azul span {
+	background-color:#000 !important;
+	color:#fff;
+}
+.continua-laranja span {
+	background-color:#000 !important;
+	color:#fff;
+}
+.news-ok-lista {
+	background-image:url(../images/news-ok-preto.png);
+	background-repeat:no-repeat;
+	float:right;
+	height:20px;
+	margin-top:10px;
+	text-indent:-2000000px;
+	width:40px;
+	cursor:pointer;
+}
+.obrigado-lista {
+	color:#FFFFFF;
+	font-family:georgia;
+	font-size:12px;
+	font-style:italic;
+	width:100px;
+}
+.news-seunome {
+	background-image:url(../images/news-seunome.png);
+	background-position:left center;
+	background-repeat:no-repeat;
+	border:2px solid #5B5B5B;
+	font-family:arial;
+	font-size:12px;
+	height:15px;
+	padding-bottom:4px;
+	padding-left:57px;
+	padding-top:4px;
+	width:77px;
+}
+.news-sem-nome {
+	border:2px solid #5B5B5B;
+	font-family:arial;
+	font-size:12px;
+	height:15px;
+	padding-bottom:4px;
+	padding-left:3px;
+	padding-top:4px;
+	width:131px;
+}
+.news-sem-email {
+	border:2px solid #5B5B5B;
+	font-family:arial;
+	font-size:12px;
+	height:15px;
+	padding-bottom:4px;
+	padding-left:3px;
+	padding-top:4px;
+	width:131px;
+}
+.news-seuemail {
+	background-image:url(../images/news-seuemail.png);
+	background-position:left center;
+	background-repeat:no-repeat;
+	border:2px solid #5B5B5B;
+	font-family:arial;
+	font-size:12px;
+	height:15px;
+	padding-bottom:4px;
+	padding-left:60px;
+	padding-top:4px;
+	width:74px;
+}
+.obrigado {
+	color:#FFFFFF;
+	font-family:georgia;
+	font-size:12px;
+	font-style:italic;
+	position:absolute;
+	right:70px;
+	top:210px;
+ *+top:130px;
+	width:100px;
+}
+.news-ok {
+	background-image:url(../images/news-ok.png);
+	background-repeat:no-repeat;
+	height:20px;
+	position:absolute;
+	right:20px;
+	text-indent:-2000000px;
+	top:250px;
+ *+top:180px;
+	width:40px;
+}
+.capa-livro {
+	border:2px solid #FFFFFF;
+	height:250px;
+	overflow:hidden;
+	width:167px;
+	/*cursor:pointer;*/
+margin-bottom:10px;
+}
+/*box comentarios*/
+
+
+.enviar {
+}
+.box-comentarios {
+	float:left;
+ *+float:none;
+	font-family:tahoma;
+	font-size:12px;
+	padding:0;
+	width:318px;
+}
+.box-comentarios .titulo-box {
+	margin-bottom:20px;
+}
+.box-comentarios .lista-comentarios {
+}
+.box-comentarios .lista-comentarios li {
+	background-color:#FFFFFF;
+	margin-bottom:4px;
+	padding:12px;
+}
+.box-comentarios .data {
+	color:#89C742;
+}
+.box-comentarios .nome {
+	color:#89C742;
+}
+.box-comentarios .texo-comentario {
+	color:#0d0906;
+}
+.box-comentarios .comentar {
+	float:left;
+	margin-right:3px;
+	margin-bottom:40px;
+}
+.box-comentarios .ver-todos {
+}
+.box-comentarios .opcoes-comentar {
+	margin-top:40px;
+}
+/*fim box comentarios*/
+
+/*lista comentarios*/
+
+.conteudo-lista-comentarios {
+	font-family:Tahoma;
+	font-size:12px;
+	width:773px;
+	margin-top:20px;
+}
+.conteudo-lista-comentarios .lista-comentarios {
+}
+.conteudo-lista-comentarios li {
+	background-image:url(../images/back_alpha_box.png);
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-bottom:3px;
+	padding:14px;
+}
+.conteudo-lista-comentarios .data {
+	color:#89C742;
+}
+.conteudo-lista-comentarios .nome {
+	color:#89C742;
+}
+.conteudo-lista-comentarios .texo-comentario {
+	color:#fff;
+}
+/*fim  lista comentarios*/
+
+/*enviar comentario*/
+
+.enviar-comentario #box_tranparente {
+	background-image:url(../images/back_alpha_box.png);
+	float:left;
+	margin-left:50px;
+	padding:30px 20px 20px;
+	width:700px;
+}
+.enviar-comentarioo #box_tranparente .formulario .part1 {
+	margin-bottom:28px;
+}
+.enviar-comentarioo #box_tranparente .formulario .box-enviar {
+	margin-left:0px;
+}
+.enviar-comentario #box_tranparente .formulario fieldset {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:13pt;
+	font-style:italic;
++*margin-left:-290px;
+	margin-left:60px;
+	position:relative;
+	width:560px;
+	border:0;
+}
+.enviar-comentario #box_tranparente .formulario fieldset label {
+	clear:both;
+	display:block;
+	margin-bottom:17px;
+}
+.enviar-comentario #box_tranparente .formulario fieldset input {
+	background-color:#000000;
+	border:1px solid #333333;
+	color:#FFFFFF;
+	float:right;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:9pt;
+	font-style:italic;
+	height:20px;
+	margin-left:30px;
+	padding:4px;
+	width:380px;
+}
+.enviar-comentario #box_tranparente .formulario fieldset .comentarios-deseja {
+	float:left;
+	height:20px;
+	margin-left:-3px;
+	margin-right:16px;
+	width:20px;
+	color:#000;
+}
+.enviar-comentario #box_tranparente .formulario fieldset .comentarios-texto {
+	font-size:12px;
+	margin-left:33px;
+	line-height:2em;
+}
+.enviar-comentario #box_tranparente .formulario fieldset .check {
+	background-color:#393939;
+	border-left:3px solid #393939;
+	height:19px;
+	position:absolute;
+	width:16px;
+	color:#000;
+}
+.enviar-comentario #box_tranparente .formulario fieldset textarea {
+	background-color:#000000;
+	border:1px solid #333333;
+	color:#FFFFFF;
+	float:right;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:9pt;
+	font-style:italic;
+	height:130px;
+	margin-left:30px;
+	padding:4px;
+	width:380px;
+}
+.enviar-comentario #box_tranparente .formulario fieldset .enviar {
+}
+.enviar-comentario #box_tranparente .formulario fieldset .enviar input {
+	background-color:#89C742;
+	cursor:pointer;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:19pt;
+	font-style:italic;
+	height:44px;
+	margin-top:30px;
+	padding-bottom:10px;
+	padding-right:10px;
+	text-align:right;
+	width:140px;
+}
+/*fim enviar comentario*/
+
+/*
+.twittes-livros{
+float:right;
+position:relative;
+}
+*/
+
+.twitter-height{
+height:auto !important;
+}
+
+.twittes-livros {
+	position:fixed;
+	top:0;
+	right:0;
+	z-index:10;
+	height:65px;
+	overflow:hidden;
+}
+/*INICIO INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+.conteudo_contato #voltar {
+	clear:both;
+	width:75px;
+	height:15px;
+	margin-top:10px;
+	padding:10px;
+	background-color:#fff;
+	clear:both;
+ *+position:relative;/*HACK IE6*/
+ *+left:4px;/*HACK IE6*/
+ *+top:-90px;/*HACK IE6*/
+}
+.conteudo_contato #voltar a {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-3px;
+}
+.conteudo_contato #voltar a:visited {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	top:-3px;
+}
+.conteudo_contato #voltar a:hover {
+	text-decoration:underline;
+}
+/*FIM INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+
+
+/* FIM Conteudo CONTATO ##################################################################################################
+#######################################################################################################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO resultado da busca #######################################################################################
+#############################################################################################################*/
+.conteudo_resultado_busca {
+	float:left;
+	padding-top:55px;
+	margin-left:210px;
+ *+position:relative; /*HACK IE7*/
+ *+left:-140px; /*HACK IE7*/
+ *+top:25px; /*HACK IE7*/
+	margin-bottom:30px;
+	width:550px;
+}
+/* inicio numeros paginas*/
+.conteudo_resultado_busca .numero_paginas {/*alinha a lista de numero de cima*/
+	margin-left:-185px;
+ *+position:relative; /*HACK IE7*/
+ *+left:-50px; /*HACK IE7*/
+	margin-top:25px;
+}
+.conteudo_resultado_busca .numero_paginas_baixo {/*alinha a lista de numero debaixo*/
+	margin-left:187px;
+	position:relative;
+	top:15px;
+ *+top:20px; /*HACK IE7*/
+ *+left:50px; /*HACK IE7*/
+}
+.conteudo_resultado_busca .numero_paginas .seta { /*a setinha dos botoes*/
+	color:#FFFFFF;
+	font-size:15pt;
+	font-family:"Times New Roman", Times, serif;
+	margin-left:20px;
+	position:relative;
+	top:2px;
+}
+.conteudo_resultado_busca .numero_paginas .anterior {
+	padding:3px 10px 10px 12px;
+	margin-right:10px;
+	width:100px;
+	height:21px;
+ *+height:20px; /*HACK IE7*/;
+}
+/* proxima */
+.conteudo_resultado_busca .numero_paginas .proxima {
+	padding:3px 10px 10px 12px;
+	margin-left:10px;
+	width:100px;
+	height:21px;
+ *+height:20px; /*HACK IE7*/;
+}
+.conteudo_resultado_busca .numero_paginas a:hover {
+	text-decoration:underline;
+}
+.conteudo_resultado_busca .numero_paginas li {
+	float:left;
+	padding:7px;
+	margin-top:-28px;
+	margin-right:3px;
+	background-color:#000;
+}
+.conteudo_resultado_busca .numero_paginas li a {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:11pt;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:bold;
+}
+/*INICIO INDICAR BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+.conteudo_resultado_busca #voltar {
+	clear:both;
+	width:75px;
+	height:15px;
+	margin-top:15px;
+	padding:10px;
+	background-color:#fff;
+	clear:both;
+ *+position:relative;/*HACK IE6*/
+ *+left:4px;/*HACK IE6*/
+}
+.conteudo_resultado_busca #voltar a {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	position:relative;
+	top:-3px;
+}
+.conteudo_resultado_busca #voltar a:visited {
+	color:#979797;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14pt;
+	position:relative;
+	top:-3px;
+}
+/*FIM BOTAO VOLTAR # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */
+
+
+
+
+
+
+
+
+
+
+
+.conteudo_resultado_busca #box_tranparente {
+	margin-top:10px;
+	padding:15px;
+	position:relative;
+ *+width:700px;/*HACK IE7*/
+ *+position:relative;/*HACK IE7*/
+ *+left:80px;/*HACK IE7*/
+}
+/* inicio CAIXA TRANSPARENTE CONTEUDO*/
+
+.conteudo_resultado_busca #box_tranparente .lista_resultados .back_preto {/* cor preta*/
+	height:135px;
+ *+height:138px;;/*HACK IE7*/
+	background-image:url(../images/back_alpha_box.png);
+	padding:10px;
+ *+padding:5px;/*HACK IE6*/
+	padding-right:0;
+	clear:both;
+	border-bottom:solid 1px #333;
+ *+position:relative;/*HACK IE6*/
+ *+top:-20px;/*HACK IE6*/
+}
+.back_vermelho {/* cor vermelha*/
+	height:135px;
+ *+height:138px;;/*HACK IE7*/
+	background-image:url(../images/back_alpha_red.png);
+	padding:10px;
+ *+padding:5px;/*HACK IE6*/
+	padding-right:0;
+	clear:both;
+	border-bottom:solid 1px #333;
+ *+position:relative;/*HACK IE6*/
+ *+top:-20px;/*HACK IE6*/
+}
+.conteudo_resultado_busca #box_tranparente .lista_resultados .back_vermelho .informacoes .nome_livro {
+	color:#fff;
+}
+.informacoes a {
+	text-decoration:none;
+}
+/*Result Info */
+.conteudo_resultado_busca #box_tranparente .result_info {
+	background-image:url(../images/back_alpha_box.png);
+	width:655px;
+	height:55px;
+	padding-top:20px;
+	padding-left:15px;
+	border-bottom:#333 solid 1px;
+ *+margin-bottom:20px;/*HACK IE7*/
+ *+width:685px;/*HACK IE7*/
+}
+.conteudo_resultado_busca #box_tranparente .result_info .quantidade_resultado {
+	float:left;
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18pt;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:normal;
+}
+.conteudo_resultado_busca #box_tranparente .result_info .palavra_chave {
+	float:left;
+	color:#ed1c24;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18pt;
+	text-decoration:none;
+	font-style:italic;
+	font-weight:normal;
+	margin-left:10px;
+}
+/*Result Info */
+
+
+
+
+
+
+
+/* conteudo da lista */
+.conteudo_resultado_busca #box_tranparente .lista_resultados .numero {/* fotodo livro */
+	float:left;
+	margin-right:50px;
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+}
+.conteudo_resultado_busca #box_tranparente .lista_resultados .foto_livro {/* fotodo livro */
+	float:left;
+	margin-right:40px;
+ *+position:relative;/*HACK IE6*/
+ *+top:2px;/*HACK IE6*/
+ *+left:5px;/*HACK IE6*/
+}
+.linha-topo {
+	border-top:1px solid #5C5A5B;
+	padding:12px;
+	width:598px;
+}
+/* INFORMA��ES # # # # # # # # #  */
+.conteudo_resultado_busca #box_tranparente .lista_resultados .informacoes .serie {
+	display:block;
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:10pt;
+	font-weight:bolder;
+}
+.conteudo_resultado_busca #box_tranparente .lista_resultados .informacoes .nome_livro {
+	color:#ed1c24;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18pt;
+	font-style:italic;
+	display:block;
+	margin:8px 0 10px 0;
+}
+.conteudo_resultado_busca #box_tranparente .lista_resultados .informacoes .descricao {
+	display:block;
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12pt;
+}
+/* INFORMA��ES # # # # # # # # #  */
+/* fim RESULTADO DA BUSCA #######################################################################################
+#############################################################################################################*/
+
+
+/**************home home home home home home home home ******************/
+
+#conteudo-home {
+	float:left;
+	margin-bottom:30px;
+	*+margin-bottom:0px;
+	margin-left:210px;
+	padding-top:55px;
+	width:550px;
+	padding-top:10px;
+}
+.box-transparent-vermelho {
+	background-image:url(../images/back-transparente-vermelho.png);
+}
+.box-transparente-branco {
+	background-image:url(../images/back-transparente-branco.png);
+}
+#conteudo-home .box-transparent-vermelho .bem-vindo {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-weight:normal;
+	font-size:42px;
+	color:#ffffff;
+	padding:10px;
+}
+#conteudo-home .box-transparent-vermelho .visite {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:17px;
+	font-style:italic;
+	font-weight:normal;
+	padding:7px;
+	line-height:25px;
+}
+#conteudo-home .home-bem-vindo {
+	width:560px;
+	height:110px;
+}
+#conteudo-home .home-visite {
+	margin-top:12px;
+	/*height:39px;*/
+	width:560px;
+}
+.conteudo-box-branco {
+	margin-top:11px;
+	padding-bottom:0;
+	padding-top:0;
+	width:560px;
+}
+#conteudo-home .conteudo-box-branco .ico-home-espaco {
+	float:left;
+	height:275px;
+	width:140px;
+}
+#conteudo-home .conteudo-box-branco .ico-home {
+	padding:5px;
+}
+#conteudo-home .conteudo-box-branco .box-textos {
+/*width:540px;*/
+}
+#conteudo-home .conteudo-box-branco .titulo-home {
+	color:#000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:22px;
+	font-style:italic;
+	font-weight:bold;
+	padding:10px;
+}
+#conteudo-home .conteudo-box-branco .texto-home {
+	color:#000000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:13pt;
+	font-style:italic;
+	font-weight:normal;
+	padding:10px;
+	margin-right:10px;
+}
+#conteudo-home .conteudo-box-branco .slogan-home {
+	color:#000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:13pt;
+	font-style:italic;
+	font-weight:bold;
+	padding:10px;
+}
+/**************fim fim fim fim fimfim fim  home home home home home home home home ******************/
+
+
+/***********baixar lista livros***********/
+
+.baixar {
+	color:#FFFFFF;
+	float:right;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:10pt;
+	font-style:italic;
+	font-weight:bold;
+	margin-top:-60px;
+	width:160px;
+}
+.baixar .baixar-txt {
+	background-image:url(../imagesico-seta-baixar.png);
+	background-repeat:no-repeat;
+	background-position:0 4px;
+}
+.baixar .baixar-pdf {
+	background-image:url(../imagesico-seta-baixar.png);
+	background-repeat:no-repeat;
+	background-position:0 4px;
+}
+.baixar .baixar-txt {
+	margin-right:10px;
+	padding-left:10px;
+}
+.baixar .baixar-txt a {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.baixar .baixar-pdf {
+	margin-right:10px;
+	padding-left:10px;
+}
+.baixar .baixar-pdf a {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.baixar .baixar-pdf a:hover {
+	text-decoration:underline;
+}
+.baixar .baixar-txt a:hover {
+	text-decoration:underline;
+}
+.baixar .img-baixar {
+	float:right;
+	margin-right:5px;
+	margin-top:-25px;
+}
+/***********fim baixar lista livros***********/
+
+/*** Busca Vazia ***/
+
+.busca-vazia {
+	background-image:url(../images/back_alpha_box.png);
+	float:left;
+	margin-bottom:30px;
+	margin-left:90px;
+	margin-top:110px;
+	padding:20px;
+	width:550px;
+}
+.busca-vazia p {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:15pt;
+	font-style:italic;
+}
+.busca-vazia p .resul-vermelho {
+	color:#89C742;
+}
+/*** Fim Busca Vazia ***/
+
+
+
+/*** Busca foram encontrados ***/
+.busca-encontrada {
+	background-image:url(../images/back_alpha_box.png);
+	margin-left:-187px;
+	*+margin-left:-50px;
+	padding:20px;
+	width:550px;
+}
+.busca-encontrada p {
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:15pt;
+	font-style:italic;
+}
+.busca-encontrada p .resul-vermelho {
+	color:#89C742;
+}
+/***Fim Busca foram encontrados ***/
+
+/** baixe livros interna**/
+.baixe-livros {
+	FONT-STYLE: italic;
+	FONT-FAMILY: Georgia, "Times New Roman", Times, serif;
+	FLOAT: left;
+	MARGIN-LEFT: 40px;
+	margin-top:20px;
+}
+.baixe-livros H2 {
+	TEXT-ALIGN: left;
+	PADDING-BOTTOM: 0px;
+	BACKGROUND-COLOR: #ffffff !important;
+	PADDING-LEFT: 12px;
+	WIDTH: 80px;
+	PADDING-RIGHT: 12px;
+	FLOAT: none;
+ *+float:left;
+	COLOR: #89c742;
+	FONT-SIZE: 30px;
+	FONT-WEIGHT: normal;
+	PADDING-TOP: 5px;
+}
+.baixe-livros H4 {
+ *+TEXT-ALIGN: left;
+	background-color:#ffffff !important;
+	color:#282828;
+	font-size:14px;
+	font-weight:normal;
+	padding-bottom:8px;
+	padding-left:8px;
+	padding-top:6px;
+	width:230px;
+}
+.baixe-livros P {
+ *+MARGIN-TOP: -18px;
+	FLOAT: right;
+	COLOR: #477711 !important;
+	background-color:#89C742 !important;
+	font-size:9pt;
+	padding:2px;
+	cursor:pointer;
+	margin-right:2px;
+	font-weight:bold !important;
+}
+
+.baixe-livros a{
+	color:#fff;
+}
+
+/**fim  baixe livros interna**/
+
+
+.baixar .leia-livro-novo-interna {
+	FONT-STYLE: italic;
+	FONT-FAMILY: Georgia, "Times New Roman", Times, serif;
+	margin-top:50px;
+}
+.baixar .leia-livro-novo-interna H2 {
+	background-color:#89C742 !important;
+	color:#FFFFFF;
+	font-size:22px;
+	font-weight:normal;
+	padding-left:5px;
+	width:55px;
+}
+.baixar .leia-livro-novo-interna H4 {
+	background-color:#89C742 !important;
+	font-size:12pt;
+	font-weight:normal;
+	width:140px;
+}
+.baixar .leia-livro-novo-interna .clique-leia {
+	background-color:#3c7000 !important;
+	font-weight:bold;
+	margin-top:2px;
+	padding:4px;
+	width:95px;
+	cursor:pointer;
+}
+.baixar .leia-livro-novo-interna .clique-leia a {
+	color:#fff;
+}
+.baixar .leia-livro-novo-interna .clique-leia a:hover {
+	COLOR: #3c7000 !important;
+}
+.baixar .leia-livro-novo-interna .clique-leia:hover {
+	background-color:#FFFFFF !important;
+	COLOR: #3c7000 !important;
+	cursor:pointer;
+}
+.baixar .leia-livro-novo-interna P {
+	font-size:14px;
+}
+
+.home-texto{
+}
+
+/*
+.part3 label.captcha img {width: 108px; height: 68px;}
+.part3 .enviar {float: right; margin-top: -75px}
+.part3 label.frase {width: 100px; float: left; margin-top: 40px; margin-left: 10px; border: 1px solid #8ac843}
+.part3 span.descricao {font-size: 11px; float: left; margin-top: 7px}
+.part3 span.descricao font {color: #8ac843}
+.part3 label.captcha {margin-top: 15px;}
+*/
+
+.part3 .descricaoCaptcha {font-size: 11px; float: left; margin-top: 25px}
+.part3 .captcha {float: left;}
+.part3 .captcha img {width: 150px; margin-left: 23px; margin-left: 19px\9; margin-top: 15px}
+.part3 input.frase {width: 195px !important; float: right !important; margin-top: 58px;}
+.part3 label font {color: #8ac843;}
+/*.part3 input.submit {float: right; margin-top: -45px}*/
+
+
+/*29/06/2010 - remover logo do governo de sp*/
+#footer .governo {display: none;}
+#footer .impresaooficial {float: right;}
+
+/*01/07/2010 - alterar imagem do rodap�*/
+#footer .impresaooficial {margin-top:-8px !important;}
+/*
+     FILE ARCHIVED ON 09:31:09 Oct 10, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:01:44 Nov 29, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 243.358 (3)
+  esindex: 0.013
+  captures_list: 263.734
+  CDXLines.iter: 14.143 (3)
+  PetaboxLoader3.datanode: 208.169 (4)
+  exclusion.robots: 0.373
+  exclusion.robots.policy: 0.351
+  RedisCDXSource: 0.933
+  PetaboxLoader3.resolve: 73.692 (2)
+  load_resource: 88.973
+*/

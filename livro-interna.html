@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Coleção Aplauso</title>
+    <link rel="stylesheet" type="text/css" href="content/css/estilo.css">
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" type="text/css" href="content/css/estilo.ie.css" />
+    <![endif]-->
+    <script type="text/javascript" src="content/js/jquery.js"></script>
+    <!--<script type="text/javascript" src="content/js/lightbox.js"></script>-->
+
+    <!-- chama o JS para o menu jquery -->
+    <script type="text/javascript" src="content/js/menu_jquery.js"></script>
+
+    <!-- chama o CSS para o menu jquery -->
+    <link rel="stylesheet" type="text/css" href="content/css/estilo_menu_jquery.css">
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+
+            var numRand = Math.floor((Math.random() * 5) + 1); // gera numero aleatorio entre 1 e 8
+            jQuery('body').addClass('background' + numRand + ''); // adiciona class ao body
+            var bodyHeight = jQuery('body').innerHeight(); // grava altura total do body
+            var windowHeight = jQuery(window).height(); // grava altura total da janela
+
+            if (bodyHeight > windowHeight) {
+
+            } else {
+                jQuery('.reticula').css('height', windowHeight);
+            }
+
+        });
+    </script>
+    <!-- **************************** GLOBAL - HEADER - fim -->
+    <script type="text/javascript" src="content/js/geral.js"></script>
+</head>
+
+<body class="background1">
+
+    <div class="reticula">
+        <!-- inicio RETICULA -->
+        <div id="page_center">
+            <div class="banner_pagina_verde">
+                <a href="home.html"><img class="topo-verde" src="content/images/topo-verde.png"></a>
+                <img class="topo-livros" src="content/images/topo-livros.png">
+            </div>
+            <!-- banner/titulo da pagina ######################### -->
+            <!-- inicio MENU DE NAVEGAÇÃO # # # # # # # # -->
+            <div id="navegacao"> <iframe name="iBusca" width="0" height="0" src="content/images/saved_resource.html"></iframe>
+
+                <!-- inicio da  BUSCA # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+                <form name="FormularioBusca" action="lista-livros.html" method="get">
+                    <fieldset id="busca-livros">
+                        <p class="lupa"></p>
+                        <input type="text" name="busca-livros-lista" class="" id="caixa_busca">
+                        <input type="submit" class="bt-ok" value="" name="bt-ok-busca">
+                    </fieldset>
+                </form>
+                <!-- fim da  BUSCA # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+
+                <!-- inicio MENU JQUERY # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+                <ul class="menu">
+                    <li id="livros">
+                        <a href="lista-livros.html" class="" id="primeiro-livros">LIVROS ></a>
+                        <ul class="sub_livros">
+                            <li class="item1"><a href="lista-livros.html">CIÊNCIA E TECNOLOGIA</a></li>
+                            <li class="item1"><a href="lista-livros.html">CRÔNICAS</a></li>
+                            <li class="item1"><a href="lista-livros.html">SÉRIE CINEMA BRASIL</a></li>
+                            <li class="item1"><a href="lista-livros.html">TODOS</a></li>
+                            <p></p><br /><!-- UM ESPACO QUE FICA DEBAIXO DO ULTIMO LINK -->
+                        </ul>
+                    </li>
+
+                    <li id="videos"><a href="#" class="">V&Iacute;DEOS</a></li>
+                    <li id="midia"><a href="#" class="">NA M&Iacute;DIA</a></li>
+                    <li id="eventos"><a href="#" class="">EVENTOS</a></li>
+                    <li id="contato"><a href="contato.html" class="selected">CONTATO</a></li>
+                </ul>
+                <!-- FINAL MENU JQUERY # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+
+
+                <!-- Menu Navegação Interno -->
+                <ul class="menu_indicar">
+                    <li><a title="O Livro"><img src="content/images/o_livro_select.png" alt="O Livro"></a></li>
+                    <li><a href="#" title="Sobre o Autor"><img src="content/images/sobre_autor.png" alt="Autor"></a></li>
+                    <li><a href="#" title="Indicar para Amigo"><img src="content/images/indicar_amigo.png" alt="Indicar"></a></li>
+                    <li class="link-twittar"><a href="#" title="Twittar esse livro" target="_blank"><img src="content/images/btn-twittar.png" alt="Twittar"></a></li>
+                </ul>
+                <!-- Menu Navegação Interno -->
+
+
+
+                <div class="receba-news-livros">
+                    <form name="frmNewsletter" action="#"
+                        method="POST" target="iBusca" onsubmit="return checaNewslleter();">
+                        <h2 class="news-verde"><span class="txt1-news">receba nossa</span><br><span class="txt2-news">newsletter</span></h2>
+
+                        <input class="news-seunome nome-news inp-nome" type="text" name="nome" value=""><br>
+
+                        <input class="news-seuemail email-news inp-email" type="text" name="email" value="">
+
+                        <span id="retornoNewsletter" class="obrigado-lista">
+                            <!--<p>Obrigado!</p><p>Em breve você irá receber nossa newsletter.-->
+                        </span>
+
+                        <input width="40" height="20" class="news-ok-lista" type="submit" name="ok" id="bt-ok" value="">
+                    </form>
+                </div>
+
+
+            </div>
+            <!-- inicio MENU DE NAVEGAÇÃO # # # # # # # # -->
+            <!-- inicio CONTEUDO # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+            <div class="conteudo_livro_interna">
+                <h1>A Cartomante</h1>
+                <!-- <h3>Série Cinema Brasil</h3>-->
+                <h3 class="autor">por Wagner de Assis</h3>
+                <!-- Inicio Caixa Transparente *************************************************** -->
+                <div id="box_tranparente">
+                    <div class="texto">
+                        <!-- INICIO TEXTO -->
+                        <!--<p class="verde"></p>-->
+                        <p class="branco"> </p>
+                        <p class="verde">Já se disse que não se pode ter um bom filme sem um bom roteiro. Ele é a viga
+                            mestra de qualquer obra cinematográfica, um gênero literário ainda mal conhecido mas, sem
+                            dúvida, fascinante.</p><br>
+                        <p class="branco">A Coleção Aplauso, da Imprensa Oficial do Estado tem publicado vários
+                            roteiros de filmes brasileiros clássicos e recentes, mas sempre com algum diferencial, com
+                            um comentário do diretor, do autor. Ou então, apresentando diversas versões pela qual passa
+                            a obra em sua transformação até as telas. Sempre pensando na sua utilização por estudantes
+                            e professores.</p><br>
+                        <p class="branco">Este A Cartomante não é uma mera transposição do filme de 2004, dirigido e
+                            roteirizado por Pablo Uranga e Wagner de Assis, que além de jornalista, já é conhecido na
+                            Coleção como autor das biografias de Reginaldo Faria, Ilka Soares e Renata Fronzi. Mais do
+                            que um roteiro, este livro, a partir do próprio conto original de Machado de Assis, traz
+                            toda a reflexão de um profissional diante da decisão de fazer um filme.</p><br>
+                        <p class="branco">0 surgimento da idéia, o processo criativo, a viabilização e a realização do
+                            projeto. Wagner conta, num apaixonado depoimento, como o filme foi baseado livremente no
+                            conto homônimo, relacionando os dois textos. Descreve ainda como o projeto, iniciado em
+                            1997, teve que sofrer alterações no roteiro e na ambientação e, mesmo assim, só foi
+                            realizado graças à participação de quase todo o elenco nos gastos de produção, num prazo
+                            máximo de quatro semanas de rodagem. É uma história fascinante, de luta, glória,
+                            desesperança, risos e lágrimas.</p><br>
+                        <p class="branco">Mais um trabalho de resgate e preservação da nossa arte e cultura, da
+                            Imprensa Oficial do Estado de São Paulo.</p><br>
+                        <p class="branco"></p><br>
+                        <p></p>
+                    </div>
+                    <br style="clear:both">
+                </div>
+                <!-- fim Caixa Transparente *************************************************** -->
+                <!-- inicio COMPRA LIVRO ************************************ -->
+                <div id="comprar_livro">
+                    <div class="imagens-leia">
+                        <img class="capa-livro" src="content/images/capa.jpg" alt="">
+                    </div>
+                    <div class="leia-livro-novo">
+                        <h2> Leia! </h2>
+                        <h4>o livro <b>na íntegra</b>
+                            <p>clique</p>
+                        </h4>
+                    </div>
+
+                    <div class="baixe-livros">
+                        <h2> Baixe! </h2>
+                        <h4>o livro <b>nos formatos: </b>
+                            <p><a href="#" target="_blank">PDF</a></p>
+                            <p><a href="#" target="_blank">txt</a></p>
+                        </h4>
+                    </div>
+                </div>
+                <!-- fim COMPRA LIVRO *************************************** -->
+                <!-- inicio FOTOS / VIDEOS *************************************** -->
+                <div id="fotos-videos">
+                    <ul class="videos_fotos">
+                        <!-- inicio fotos e videos -->
+                        <!--  -->
+                    </ul>
+                    <div class="box-comentarios">
+
+                        <p class="titulo-box"><img src="content/images/titulo-box-comentarios.png"></p>
+
+                        <ul class="lista-comentarios">
+                            <li>
+                                <span class="data">24-04-10 - </span>
+                                <span class="nome">Abel Sidney</span>
+                                <p class="texo-comentario">Estou surpreso e muito contente com esta série e com tudo o
+                                    que a Imprensa Oficial de São Paulo tem realizado nos últimos tempos, sempre nos
+                                    surpreendendo.
+
+                                    Parabéns à toda equipe</p>
+                            </li>
+                            <li>
+                                <span class="data">26-03-10 - </span>
+                                <span class="nome">paula Santana</span>
+                                <p class="texo-comentario">teste</p>
+                            </li>
+                            <li>
+                                <span class="data">05-01-10 - </span>
+                                <span class="nome">Patricia</span>
+                                <p class="texo-comentario">Achei maravilhoso esta ideia de colocar esses maravilhosos
+                                    livros pela internet para que o público possa saber mais da nossa literatura
+                                    maravilhosooooooooooooooooooooooo</p>
+                            </li>
+                        </ul>
+
+                        <div class="opcoes-comentar">
+                            <p class="comentar">
+                                <a href="#"><img src="content/images/btn-comentar.png"></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="voltar"><a href="javascript: history.go(-1);" title="voltar">{ voltar</a></div>
+            </div>
+            <!-- FIM FOTOS / VIDEOS ****************************************** -->
+            
+            <!-- fim CONTEUDO # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+            <!-- inicio FOOTER # # # # # # # # # # #  -->
+            <div id="footer">
+                <p class="copyright">© 2009 • Imprensa Oficial. Todos os direitos reservados.</p>
+                <p class="cappuccino"><img src="content/images/logo_cappuccino.png" alt="Logotipo da Cappuccino"><a target="_blank" href="#" title="Site da Cappuccino">Cappuccino</a></p>
+                <p class="impresaooficial"><a target="_blank" href="#" title="Imprensa Oficial"><img src="content/images/footer_impresaoficial.png" alt=""></a></p>
+            </div>
+            <!-- fim FOOTER # # # # # # # # # # #  -->
+            <br style="clear:both">
+        </div>
+    </div>
+    <!-- fim RETICULA -->
+</body>
+</html>

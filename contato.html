@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Coleção Aplauso</title>
+    <link rel="stylesheet" type="text/css" href="content/css/estilo.css">
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" type="text/css" href="content/css/estilo.ie.css" />
+    <![endif]-->
+    <script type="text/javascript" src="content/js/jquery.js"></script>
+    <!--<script type="text/javascript" src="content/js/lightbox.js"></script>-->
+
+    <!-- chama o JS para o menu jquery -->
+    <script type="text/javascript" src="content/js/menu_jquery.js"></script>
+
+    <!-- chama o CSS para o menu jquery -->
+    <link rel="stylesheet" type="text/css" href="content/css/estilo_menu_jquery.css">
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+
+            var numRand = Math.floor((Math.random() * 5) + 1); // gera numero aleatorio entre 1 e 8
+            jQuery('body').addClass('background' + numRand + ''); // adiciona class ao body
+            var bodyHeight = jQuery('body').innerHeight(); // grava altura total do body
+            var windowHeight = jQuery(window).height(); // grava altura total da janela
+
+            if (bodyHeight > windowHeight) {
+
+            } else {
+                jQuery('.reticula').css('height', windowHeight);
+            }
+
+        });
+    </script>
+    <!-- **************************** GLOBAL - HEADER - fim -->
+    <script type="text/javascript" src="content/js/geral.js"></script>
+
+    
+    <script type="text/javascript">
+
+        function  checa()
+        {
+            frm = document.formuContato;
+            
+            if(trim(frm.nome.value)=="")
+            {
+                alert("Preencha seu nome!");
+                frm.nome.focus();
+                return false;
+            }
+            
+            if(trim(frm.email.value)=="")
+            {
+                alert("Preencha seu e-mail!");
+                frm.email.focus();
+                return false;
+            }
+            
+            if(!email(frm.email, '[descricao_campo]'))
+            { 
+                return false;
+            }
+            
+            if(trim(frm.assunto.value)=="")
+            {
+                alert("Preencha o assunto!");
+                frm.assunto.focus();
+                return false;
+            }
+            
+            if(trim(frm.mensagem.value)=="")
+            {
+                alert("Preencha a mensagem!");
+                frm.mensagem.focus();
+                return false;
+            }
+        }
+
+    </script>
+</head>
+
+<body class="background4">
+
+    <!-- inicio RETICULA -->
+    <div class="reticula" style="height: 723px;">
+
+        <div id="page_center">
+            <div class="banner_pagina_vinho">
+                <a href="home.html"><img class="topo-vermelho" src="content/images/topo-vermelho.png"></a>
+                <img class="topo-livros" src="content/images/topo-contato.png">
+            </div><!-- banner/titulo da pagina ######################### -->
+            
+            
+            <div id="navegacao">
+                <!-- inicio da  BUSCA # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+                <form name="FormularioBusca" action="lista-livros.html" method="get">
+                    <fieldset id="busca-livros">
+                        <p class="lupa"></p>
+                        <input type="text" name="busca-livros-lista" class="mostra_texto_busca" id="caixa_busca">
+                        <input type="submit" class="bt-ok" value="" name="bt-ok-busca">
+                    </fieldset>
+                </form>
+                <!-- fim da  BUSCA # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+        
+                <!-- inicio MENU JQUERY # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+                <ul class="menu">
+                    <li id="livros">
+                        <a href="lista-livros.html" class="" id="primeiro-livros">LIVROS ></a>
+                        <ul class="sub_livros">
+                            <li class="item1"><a href="lista-livros.html">CIÊNCIA E TECNOLOGIA</a></li>
+                            <li class="item1"><a href="lista-livros.html">CRÔNICAS</a></li>
+                            <li class="item1"><a href="lista-livros.html">SÉRIE CINEMA BRASIL</a></li>
+                            <li class="item1"><a href="lista-livros.html">TODOS</a></li>
+                            <p></p><br /><!-- UM ESPACO QUE FICA DEBAIXO DO ULTIMO LINK -->
+                        </ul>
+                    </li>
+                
+                    <li id="videos"><a href="#" class="">V&Iacute;DEOS</a></li>
+                    <li id="midia"><a href="#" class="">NA M&Iacute;DIA</a></li>
+                    <li id="eventos"><a href="#" class="">EVENTOS</a></li>
+                    <li id="contato"><a href="contato.html" class="selected">CONTATO</a></li>
+                </ul>
+                <!-- FINAL MENU JQUERY # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # --> 
+            
+
+            
+
+
+                <div class="receba-news-livros">
+                    <form name="frmNewsletter" action="newsletter.php" method="POST" target="iBusca" onsubmit="return checaNewslleter();">
+                        <h2 class="news-vinho">
+                            <span class="txt1-news">receba nossa</span><br>
+                            <span class="txt2-news">newsletter</span>
+                        </h2>
+
+                        <input class="news-seunome nome-news inp-nome" type="text" name="nome" value=""><br>
+                        <input class="news-seuemail email-news inp-email" type="text" name="email" value="">
+
+                        <span id="retornoNewsletter" class="obrigado-lista"></span>
+
+                        <input width="40" height="20" class="news-ok-lista" type="submit" name="ok" id="bt-ok" value="">
+                    </form>
+                </div>
+            </div>
+
+
+            <!-- inicio CONTEUDO # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #   -->
+            <div class="conteudo_contato">
+
+                <div id="box_tranparente">
+                    <!-- Inicio Caixa Transparente -->
+
+
+                    <!-- inicio FORMULARIO ############## -->
+                    <div class="formulario">
+                        <form name="formuContato" method="POST" onsubmit="return checa()">
+                            <input type="hidden" name="acao" value="enviar">
+                            <!-- Inicio FORMULARIO INDICACAO -->
+                            <fieldset class="part1">
+                                <label><span>Seu nome:</span><input type="text" name="nome"></label>
+                                <label><span>Seu e-mail:</span><input type="text" name="email"></label>
+                            </fieldset>
+
+                            <fieldset class="part2">
+                                <label><span>Assunto:</span><input type="text" name="assunto"></label>
+                                <label><span>Mensagem:</span><textarea name="mensagem" rows="5" cols="50"></textarea></label>
+                                <label class="enviar"><input type="submit" value="enviar"></label>
+                            </fieldset>
+                        </form><!-- Fim FORMULARIO INDICACAO -->
+
+                    </div>
+                    <!-- FIM FORMULARIO ############## -->
+
+
+                    <br style="clear:both">
+                </div><!-- fim caixa transparente -->
+
+
+
+                <ul class="videos_fotos">
+                    <!-- inicio fotos e videos -->
+                    <li id="voltar"><a href="javascript: history.go(-1);" title="voltar">{ voltar</a></li>
+                </ul><!-- fim fotos e videos -->
+
+
+
+            </div>
+            <!-- fim CONTEUDO # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #   -->
+
+
+
+
+            <!-- inicio FOOTER # # # # # # # # # # #  -->
+            <div id="footer">
+                <p class="copyright">© 2009 • Imprensa Oficial. Todos os direitos reservados.</p>
+                <p class="cappuccino"><img src="content/images/logo_cappuccino.png" alt="Logotipo da Cappuccino"><a target="_blank" href="#" title="Site da Cappuccino">Cappuccino</a></p>
+                <p class="impresaooficial"><a target="_blank" href="#" title="Imprensa Oficial"><img src="content/images/footer_impresaoficial.png" alt=""></a></p>
+            </div>
+            <!-- fim FOOTER # # # # # # # # # # #  -->
+            <br style="clear:both">
+        </div>
+
+    </div>
+</body>
+
+</html>

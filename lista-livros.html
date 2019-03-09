@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Coleção Aplauso</title>
+    <link rel="stylesheet" type="text/css" href="content/css/estilo.css">
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" type="text/css" href="content/css/estilo.ie.css" />
+    <![endif]-->
+    <script type="text/javascript" src="content/js/jquery.js"></script>
+    <!--<script type="text/javascript" src="content/js/lightbox.js"></script>-->
+
+    <!-- chama o JS para o menu jquery -->
+    <script type="text/javascript" src="content/js/menu_jquery.js"></script>
+
+    <!-- chama o CSS para o menu jquery -->
+    <link rel="stylesheet" type="text/css" href="content/css/estilo_menu_jquery.css">
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+
+            var numRand = Math.floor((Math.random() * 5) + 1); // gera numero aleatorio entre 1 e 8
+            jQuery('body').addClass('background' + numRand + ''); // adiciona class ao body
+            var bodyHeight = jQuery('body').innerHeight(); // grava altura total do body
+            var windowHeight = jQuery(window).height(); // grava altura total da janela
+
+            if (bodyHeight > windowHeight) {
+
+            } else {
+                jQuery('.reticula').css('height', windowHeight);
+            }
+
+        });
+    </script>
+    <!-- **************************** GLOBAL - HEADER - fim -->
+    <script type="text/javascript" src="content/js/geral.js"></script>
+</head>
+
+<body class="background2">
+    <!-- BEGIN WAYBACK TOOLBAR INSERT -->
+    <script type="text/javascript" src="content/images/timestamp.js.download" charset="utf-8"></script>
+    <script type="text/javascript" src="content/images/graph-calc.js.download" charset="utf-8"></script>
+    <script type="text/javascript" src="content/images/auto-complete.js.download" charset="utf-8"></script>
+    <script type="text/javascript" src="content/images/toolbar.js.download" charset="utf-8"></script>
+    <style type="text/css">
+        body {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+            /*min-width:800px !important;*/
+        }
+
+        .wb-autocomplete-suggestions {
+            text-align: left;
+            cursor: default;
+            border: 1px solid #ccc;
+            border-top: 0;
+            background: #fff;
+            box-shadow: -1px 1px 3px rgba(0, 0, 0, .1);
+            position: absolute;
+            display: none;
+            z-index: 2147483647;
+            max-height: 254px;
+            overflow: hidden;
+            overflow-y: auto;
+            box-sizing: border-box;
+        }
+
+        .wb-autocomplete-suggestion {
+            position: relative;
+            padding: 0 .6em;
+            line-height: 23px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 1.02em;
+            color: #333;
+        }
+
+        .wb-autocomplete-suggestion b {
+            font-weight: bold;
+        }
+
+        .wb-autocomplete-suggestion.selected {
+            background: #f0f0f0;
+        }
+    </style>
+    <script type="text/javascript">
+        __wm.bt(575, 27, 25, 2, "web", "http://aplauso.imprensaoficial.com.br:80/lista-livros.php", "2010-07-24", 1996);
+    </script>
+    <div class="wb-autocomplete-suggestions " style="left: 0px; top: 1px; width: 0px;"></div>
+
+    <div class="reticula">
+        <!-- inicio RETICULA -->
+        <div id="page_center">
+            <div class="banner_pagina_verde"><a href="home.html"><img class="topo-verde" src="content/images/topo-verde.png"></a>
+                <img class="topo-livros" src="content/images/topo-livros.png"></div>
+            <!-- banner/titulo da pagina ######################### -->
+
+            <div id="navegacao">
+                <!-- inicio da  BUSCA # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+                <form name="FormularioBusca" action="lista-livros.html" method="get">
+                    <fieldset id="busca-livros">
+                        <p class="lupa"></p>
+                        <input type="text" name="busca-livros-lista" class="mostra_texto_busca" id="caixa_busca">
+                        <input type="submit" class="bt-ok" value="" name="bt-ok-busca">
+                    </fieldset>
+                </form>
+                <!-- fim da  BUSCA # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+
+                <!-- inicio MENU JQUERY # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+                <ul class="menu">
+                    <li id="livros">
+                        <a href="lista-livros.html" class="" id="primeiro-livros">LIVROS ></a>
+                        <ul class="sub_livros">
+                            <li class="item1"><a href="lista-livros.html">CIÊNCIA E TECNOLOGIA</a></li>
+                            <li class="item1"><a href="lista-livros.html">CRÔNICAS</a></li>
+                            <li class="item1"><a href="lista-livros.html">SÉRIE CINEMA BRASIL</a></li>
+                            <li class="item1"><a href="lista-livros.html">TODOS</a></li>
+                            <p></p><br /><!-- UM ESPACO QUE FICA DEBAIXO DO ULTIMO LINK -->
+                        </ul>
+                    </li>
+                
+                    <li id="videos"><a href="#" class="">V&Iacute;DEOS</a></li>
+                    <li id="midia"><a href="#" class="">NA M&Iacute;DIA</a></li>
+                    <li id="eventos"><a href="#" class="">EVENTOS</a></li>
+                    <li id="contato"><a href="contato.html" class="selected">CONTATO</a></li>
+                </ul>
+                <!-- FINAL MENU JQUERY # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+
+
+                <div class="receba-news-livros">
+                    <form name="frmNewsletter" action="#"
+                        method="POST" target="iBusca" onsubmit="return checaNewslleter();">
+                        <h2 class="news-verde"><span class="txt1-news">receba nossa</span><br><span class="txt2-news">newsletter</span></h2>
+
+                        <input class="news-seunome nome-news inp-nome" type="text" name="nome" value=""><br>
+
+                        <input class="news-seuemail email-news inp-email" type="text" name="email" value="">
+
+                        <span id="retornoNewsletter" class="obrigado-lista">
+                            <!--<p>Obrigado!</p><p>Em breve você irá receber nossa newsletter.-->
+                        </span>
+
+                        <input width="40" height="20" class="news-ok-lista" type="submit" name="ok" id="bt-ok" value="">
+                    </form>
+                </div>
+            </div>
+
+
+
+            <!-- inicio CONTEUDO # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #   -->
+            <div class="conteudo_lista_livros">
+
+                <!-- inicio NUMEROS PAGINAS # # # # # # # # # # # #  -->
+                <ul class="numero_paginas">
+                    <li class="selected"><a href="#" title="">1</a></li>
+                    <li><a href="#" title="">2</a></li>
+                    <li><a href="#" title="">3</a></li>
+                    <li><a href="#" title="">4</a></li>
+                    <li><a href="#" title="">5</a></li>
+                    <li class="espaco">&nbsp;<p>...</p>
+                    </li>
+                    <li><a href="#" title="">36</a></li>
+                    <li class="proxima"><a href="#" title=""><img src="content/images/btn-prox.png"></a><span class="seta"></span></li>
+                </ul>
+                <!-- fim NUMEROS PAGINAS # # # # # # # # # # # #  -->
+
+
+                <div id="box_tranparente">
+                    <ul class="lista_livros">
+                        <li class="back_verde">
+                            <span class="foto_livro">
+                                <a href="livro-interna.html" title="Ler Este Livro"><img src="content/images/capa.jpg"
+                                        alt="" width="88" class="imagem"></a>
+                            </span>
+                            <div class="informacoes">
+                                <a href="livro-interna.html" title="Ler Este Livro">
+                                    <h2 class="nome_livro">A Cartomante</h2><br>
+                                    <h4 class="autor">Wagner de Assis</h4>
+                                </a>
+                                <div class="baixar">
+                                    <p class="baixar-txt"><a href="#" target="_blank">baixar em txt</a></p>
+                                    <p class="baixar-pdf"><a href="#" target="_blank">baixar em PDF</a></p>
+                                    <p class="img-baixar"><img src="content/images/ico-baixar.png"></p>
+
+                                    <div class="leia-livro-novo-interna ">
+                                        <h2> Leia! </h2>
+                                        <h4>o livro <b>na íntegra</b></h4>
+                                        <h4 class="clique-leia">
+                                            <a href="livro-interna.html" title="Ler Este Livro">clique aqui</a>
+                                            <p></p>
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <p class="serie">
+                                    <span class="descricao">
+                                        Roteiro comentado de Wagner de Assis baseado no conto de
+                                        Machado de Assis
+                                    </span>
+                                </p>
+                            </div>
+                            <br style="clear:both">
+                            &nbsp;
+                        </li>
+                        <li class="back_preto">
+                            <span class="foto_livro">
+                                <a href="livro-interna.html" title="Ler Este Livro"><img src="content/images/capa(1).jpg" alt="" width="88"class="imagem"></a>
+                            </span>
+                            <div class="informacoes">
+                                <a href="livro-interna.html" title="Ler Este Livro">
+                                    <h2 class="nome_livro">A Hora do Cinema Digital</h2>
+                                    <br>
+                                    <h4 class="autor">Luiz Gonzaga Assis de Luca</h4>
+                                </a>
+                                <div class="baixar">
+                                    <p class="baixar-txt"><a href="#" target="_blank">baixar em txt</a></p>
+                                    <p class="baixar-pdf"><a href="#" target="_blank">baixar em PDF</a></p>
+                                    <p class="img-baixar"><img src="content/images/ico-baixar.png"></p>
+                                    <div class="leia-livro-novo-interna ">
+                                        <h2> Leia! </h2>
+                                        <h4>o livro <b>na íntegra</b></h4>
+                                        <h4 class="clique-leia">
+                                            <a href="livro-interna.html" title="Ler Este Livro">clique aqui</a>
+                                            <p></p>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <p class="serie">
+                                    <!-- <span class="titulo_serie">Ciência e Tecnologia</span> -->
+                                    <span class="descricao"> Democratização e Globalização do Audiovisual </span>
+                                </p>
+                            </div>
+                            <br style="clear:both">
+                            &nbsp;
+                        </li>
+                    </ul>
+
+
+                    <div class="numero_paginas_baixo">
+                        <!-- inicio NUMEROS PAGINAS # # # # # # # # # # # #  -->
+                        <ul class="numero_paginas">
+                            <li class="selected"><a href="#" title="">1</a></li>
+                            <li><a href="#" title="">2</a></li>
+                            <li><a href="#" title="">3</a></li>
+                            <li><a href="#" title="">4</a></li>
+                            <li><a href="#" title="">5</a></li>
+                            <li class="espaco">&nbsp;
+                                <p>...</p>
+                            </li>
+                            <li><a href="#" title="">36</a></li>
+                            <li class="proxima"><a href="#" title=""><img src="content/images/btn-prox.png"></a><span class="seta"></span></li>
+                        </ul> <!-- fim NUMEROS PAGINAS # # # # # # # # # # # #  -->
+                    </div>
+                    <br style="clear:both">
+                </div>
+            </div>
+            <!-- fim CONTEUDO # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #   -->
+            
+
+
+            
+            <!-- inicio FOOTER # # # # # # # # # # #  -->
+            <div id="footer">
+                <p class="copyright">© 2009 • Imprensa Oficial. Todos os direitos reservados.</p>
+                <p class="cappuccino"><img src="content/images/logo_cappuccino.png" alt="Logotipo da Cappuccino"><a target="_blank" href="#" title="Site da Cappuccino">Cappuccino</a></p>
+                <p class="impresaooficial"><a target="_blank" href="#" title="Imprensa Oficial"><img src="content/images/footer_impresaoficial.png" alt=""></a></p>
+            </div>
+            <!-- fim FOOTER # # # # # # # # # # #  -->
+            <br style="clear:both">
+        </div>
+    </div>
+    <!-- fim RETICULA -->
+</body>
+
+</html>
